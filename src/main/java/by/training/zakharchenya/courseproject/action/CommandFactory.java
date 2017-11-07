@@ -6,7 +6,7 @@ import by.training.zakharchenya.courseproject.action.command.admin.UpdateUserSta
 import by.training.zakharchenya.courseproject.action.command.change.*;
 import by.training.zakharchenya.courseproject.action.command.game.*;
 import by.training.zakharchenya.courseproject.action.command.mail.DeleteMessageCommand;
-import by.training.zakharchenya.courseproject.action.command.mail.NewMessageCommand;
+import by.training.zakharchenya.courseproject.action.command.mail.NewServiceCommand;
 import by.training.zakharchenya.courseproject.action.command.mail.UpdateMessageCommand;
 import by.training.zakharchenya.courseproject.action.command.sign.SignInCommand;
 import by.training.zakharchenya.courseproject.action.command.sign.SignUpCommand;
@@ -44,7 +44,7 @@ public class CommandFactory {
             case RESET_AVATAR:
                 return new ResetAvatarCommand();
             case NEW_MESSAGE:
-                return new NewMessageCommand();
+                return new NewServiceCommand();
             case DELETE_MESSAGE:
                 return new DeleteMessageCommand();
             case UPDATE_MESSAGE:

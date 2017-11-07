@@ -33,9 +33,9 @@
 <%@include file="../../WEB-INF/jspf/header.jsp"%>
 <main class="container">
 
-    <div class="visible-lg-inline-block">
+    <%--<div class="visible-lg-inline-block">
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".money-settings-modal-lg"><fmt:message key="label.top.up.account"/></button>
-    </div>
+    </div>--%>
     <div class="visible-lg-inline-block">
         <p class="message">
             ${topUpAccountMessage}

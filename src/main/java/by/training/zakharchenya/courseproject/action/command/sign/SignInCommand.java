@@ -42,21 +42,18 @@ public class SignInCommand implements Command {
         if (LoginLogic.checkLogin(login, pass)) {
             Account currentAccount = LoginLogic.getAccount(login);
             request.getSession().setAttribute(Constants.ACCOUNT_KEY, currentAccount);
-            try {
-                request.getSession().setAttribute(Constants.CREDIT_BALANCE_KEY, new CreditBalance(MoneyInfoLogic.countCreditBalance(currentAccount.getAccountId())));
-                if(currentAccount.isAdmin()){
-                    visitor.setRole(Visitor.Role.ADMIN);
-                }else{
-                    visitor.setRole(Visitor.Role.USER);
-                }
-                visitor.setStatus(currentAccount.getStatus());
-                visitor.setCurrentPage(ConfigurationManager.getProperty(Constants.PAGE_MAIN));
-                page = ConfigurationManager.getProperty(PAGE_MAIN);
 
-            } catch (LogicException e) {
-                LOG.log(Level.ERROR, "Errors during changing account name.", e);
-                page = ConfigurationManager.getProperty(Constants.PAGE_WELCOME);
+            //request.getSession().setAttribute(Constants.CREDIT_BALANCE_KEY, new CreditBalance(MoneyInfoLogic.countCreditBalance(currentAccount.getAccountId())));
+            if(currentAccount.isAdmin()){
+                visitor.setRole(Visitor.Role.ADMIN);
+            }else{
+                visitor.setRole(Visitor.Role.USER);
             }
+            visitor.setStatus(currentAccount.getStatus());
+            visitor.setCurrentPage(ConfigurationManager.getProperty(Constants.PAGE_MAIN));
+            page = ConfigurationManager.getProperty(PAGE_MAIN);
+
+
         } else {
             request.setAttribute(ERROR_LOGIN_MESSAGE, MessageManager.getProperty(ERROR_LOGIN));
             page = ConfigurationManager.getProperty(PAGE_WELCOME);

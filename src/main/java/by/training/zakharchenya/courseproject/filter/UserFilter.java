@@ -30,9 +30,9 @@ public class UserFilter implements Filter {
             request.getSession().setAttribute(Constants.ACCOUNT_KEY, null);
             response.sendError(HttpServletResponse.SC_FORBIDDEN);
         } else {
-            List<Integer> params = AdminLogic.loadParams();
+            /*List<Integer> params = AdminLogic.loadParams();
             request.getSession().setAttribute(Constants.MIN_POINTS_KEY, params.get(0));
-            request.getSession().setAttribute(Constants.MIN_RATE_KEY, params.get(1));
+            request.getSession().setAttribute(Constants.MIN_RATE_KEY, params.get(1));*/
             filterChain.doFilter(servletRequest, servletResponse);
         }
     }

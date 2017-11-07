@@ -20,7 +20,7 @@ public class AccountDAO extends AbstractDAO {
 
     private static final String SQL_CHECK_LOGIN_UNIQUENESS = "SELECT 1 FROM `account` WHERE `login` = ?";
 
-    private static final String SQL_FIND_ACCOUNT_BY_LOGIN = "SELECT `accountId`, `name`, `surname`, `login`, `email`, `avatar`, `birthDate`, `admin`, `status` FROM `account` WHERE (`login` = ?)";
+    private static final String SQL_FIND_ACCOUNT_BY_LOGIN = "SELECT `accountId`, `name`, `surname`, `login`, `email`, `birthDate`, `admin` FROM `account` WHERE (`login` = ?)";
     private static final String SQL_UPDATE_AVATAR_BY_ACCOUNT_ID = "UPDATE `account` SET `avatar` = ? WHERE `accountId` = ?";
     private static final String SQL_ADMIN_LIST = "SELECT `accountId`, `name`, `surname`, `login`, `email`, `avatar`, `birthDate`, `admin`, `status` FROM `account` WHERE (`admin` = TRUE)";
 
@@ -145,15 +145,8 @@ public class AccountDAO extends AbstractDAO {
                 result.setSurname(resultSet.getString(SURNAME_COLUMN));
                 result.setLogin(resultSet.getString(LOGIN_COLUMN));
                 result.setEmail(resultSet.getString(EMAIL_COLUMN));
-                Blob avatar = resultSet.getBlob(AVATAR_COLUMN);
-                if (avatar == null) {
-                    result.setAvatar(null);
-                } else {
-                    result.setAvatar(avatar.getBytes(1, (int)avatar.length()));
-                }
                 result.setBirthDate(resultSet.getDate(BIRTHDATE_COLUMN));
                 result.setAdmin(resultSet.getBoolean(ADMIN_COLUMN));
-                result.setStatus(Account.StatusEnum.valueOf(resultSet.getString(STATUS_COLUMN).toUpperCase()));
                 return result;
             }
             else {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="elgrand_casino@localhost" uuid="700059eb-d8aa-4e45-8e7a-bd00f1515f89">
+    <data-source source="LOCAL" name="csab_l1@localhost" uuid="d0d85212-727d-43c9-af77-f7a2a16ea5e2">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/elgrand_casino</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/csab_l1</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

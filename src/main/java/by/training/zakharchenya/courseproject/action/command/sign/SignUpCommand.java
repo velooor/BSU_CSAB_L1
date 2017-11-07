@@ -70,15 +70,8 @@ public class SignUpCommand implements Command {
                 visitor.setStatus(Account.StatusEnum.ACTIVE);
                 request.getSession().setAttribute(Constants.ACCOUNT_KEY, currentAccount);
 
-                try {
-                    MoneyInfoLogic.registerCreditAccount(currentAccount.getAccountId());
-                    request.getSession().setAttribute(Constants.CREDIT_BALANCE_KEY, new CreditBalance(0));
-                    MailLogic.sendMessage(login,"Welcome!","Hello, "+ name + " " + surname +"!  Thank you for registering. We are glad to see you in Elgrand Casino! We suppose, that luck will always be with you. Good luck! Administration.",1,false);
-                    page = ConfigurationManager.getProperty(PAGE_MAIN);
-                } catch (LogicException e) {
-                    LOG.log(Level.ERROR, "Errors during changing account name.", e);
-                    page = ConfigurationManager.getProperty(Constants.PAGE_INDEX);
-                }
+                page = ConfigurationManager.getProperty(PAGE_MAIN);
+
                 break;
             case INVALID_EMAIL:
                 request.setAttribute(ERROR_SIGNUP_MESSAGE, MessageManager.getProperty(MESSAGE_INVALID_EMAIL));
