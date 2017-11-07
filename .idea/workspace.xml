@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c701756e-247c-47a1-bd30-9153318a8536" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject.war" afterPath="$PROJECT_DIR$/target/LCourseProject.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/csab_L1.mwb" afterPath="$PROJECT_DIR$/database/csab_L1.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/csab_L1.mwb.bak" afterPath="$PROJECT_DIR$/database/csab_L1.mwb.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/LCourseProject/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/database.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/database.properties" afterPath="$PROJECT_DIR$/target/classes/properties/database.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1384,7 +1373,7 @@
       <workItem from="1496821757260" duration="4606000" />
       <workItem from="1496850418985" duration="15315000" />
       <workItem from="1509483568000" duration="710000" />
-      <workItem from="1510065760111" duration="11005000" />
+      <workItem from="1510065760111" duration="11594000" />
     </task>
     <task id="LOCAL-00001" summary="pre-final">
       <created>1510088330367</created>
@@ -1397,10 +1386,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422684000" />
+    <option name="totallyTimeSpent" value="423273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1420" extended-state="7" />
+    <frame x="-9" y="-9" width="2578" height="1420" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
