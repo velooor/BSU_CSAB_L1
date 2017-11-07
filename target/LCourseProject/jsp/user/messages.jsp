@@ -33,7 +33,7 @@
 <%@include file="../../WEB-INF/jspf/header.jsp"%>
 <main class="container">
         <div class="visible-lg-inline-block">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".new-message-modal-lg"><fmt:message key="label.new.message"/></button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".new-message-modal-lg"><fmt:message key="label.new.service"/></button>
         </div>
         <div class="visible-lg-inline-block">
             <p class="message">
@@ -46,95 +46,64 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title"><fmt:message key="label.new.message"/></h3>
+                    <h3 class="modal-title"><fmt:message key="label.new.service"/></h3>
                 </div>
                 <div class="modal-body">
                        <form id="newMessageForm" name="newMessageForm" action="/main" method="post" onsubmit="return validateForm ( )">
-                           <div class="row">
-                               <div class="text-center">
-                                   <label class="radio-inline"><input type="radio" onchange="return formSevice()" name="address" value="user" checked><fmt:message key="label.touser" /></label>
-                                   <label class="radio-inline"><input type="radio" onchange="return formSevice()" name="address" value="admin"><fmt:message key="label.toadmin"/></label>
-                               </div>
 
-
-                               <div class="col-sm-6">
-                                   <div class="form-group">
-                                       <label for="login" class="control-label"><fmt:message key="label.whom"/></label>
-                                       <input type="text" id="login" name="login" class="form-control"  value="" placeholder="<fmt:message key="label.login"/>" minlength="2" maxlength="30">
-                                       <span class="glyphicon form-control-feedback"></span>
-                                   </div>
-                               </div>
-                               <div class="col-sm-6">
-                                   <div class="form-group">
-                                       <label for="theme" class="control-label"><fmt:message key="label.theme"/></label>
-                                       <input type="text" id="theme" name="theme" class="form-control" required  value="" placeholder="<fmt:message key="label.messtheme"/>" maxlength="50">
-                                   </div>
-                               </div>
-                           </div>
 
                            <div class="form-group">
-                               <label for="message" class="control-label"><fmt:message key="label.yourmessage"/></label>
-                               <textarea id="message" name="message" class="form-control" rows="3" placeholder="<fmt:message key="label.yourmessage"/>" minlength="1" maxlength="500" required></textarea>
+                               <input type="text" id="serviceName" name="serviceName" class="form-control"  value="" placeholder="<fmt:message key="label.service.name"/>" minlength="2" maxlength="30">
                            </div>
 
+                           <div class="form-group-lg">
+                               <input type="text" name="patientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>
+                           </div>
+                           <div class="form-group-lg">
+                               <input type="date" name="serviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2013-01-01" required>
+                           </div>
+                           <div class="form-group-lg">
+                               <input type="text" name="doctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
+                           </div>
+                           <div class="form-group-lg">
+                               <input type="number" name="price" class="form-control"  placeholder="<fmt:message key="label.service.price"/>*" required/>
+                           </div>
+                           <div class="form-group-lg">
+                               <input type="text" name="description" class="form-control" placeholder="<fmt:message key="label.service.descrption"/>*" required/>
+                           </div>
                            <input type="hidden" name="command" value="newmessage">
                            <p class="message">
                                ${NewMessageMessage}
                            </p>
 
                            <hr>
-
                        </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal"><fmt:message key="label.close"/></button>
-                    <button type="submit" form="newMessageForm" class="btn btn-primary"><fmt:message key="label.sendmessage"/></button>
+                    <button type="submit" form="newMessageForm" class="btn btn-primary"><fmt:message key="label.submit"/></button>
                 </div>
             </div>
 
         </div>
     </div>
 
-   <div class="clearfix pulse animated">
-       <div class="page-header text-center"><h2><fmt:message key="label.not.read.messages"/></h2></div>
-       <c:forEach var="message" items="${unreadMessages}">
-           <div class="panel panel-info col-lg-12">
-                   <h4 class="panel-heading col-lg-7">${message.theme}</h4>
-                   <h4 class="panel-heading col-lg-5"><fmt:message key="label.title.from"/> ${message.creator.name} ${message.creator.surname} (${message.creator.login})</h4>
-               <div class="panel-body">
-                   <div class="col-lg-7">${message.message}</div>
-                   <div class="col-lg-3">
-                       <label><fmt:message key="label.creating.time"/>:</label>
-                       <div>${message.creationTime}</div>
-                   </div>
-                   <div class="col-lg-2">
-                       <button type="button" onclick="window.location.href='${context}/main?command=deleteMessage&messageid=${message.messageId}'" class="btn btn-default pull-right"><fmt:message key="label.delete.message"/></button>
-                       <br>
-                       <button type="button" onclick="window.location.href='${context}/main?command=updateIsReadMessage&messageid=${message.messageId}&isRead=true'" class="btn btn-primary pull-right"><fmt:message key="label.markasread.message"/></button>
-                   </div>
-
-
-               </div>
-           </div>
-       </c:forEach>
-   </div>
 
    <div class="clearfix pulse animated">
-       <div class="page-header text-center"><h2><fmt:message key="label.read.messages"/></h2></div>
-       <c:forEach var="message" items="${readMessages}">
+       <div class="page-header text-center"></div>
+       <c:forEach var="service" items="${readMessages}">
            <div class="panel panel-default col-lg-12">
-               <h4 class="panel-heading col-lg-7">${message.theme}</h4>
-               <h4 class="panel-heading col-lg-5"><fmt:message key="label.title.from"/> ${message.creator.name} ${message.creator.surname} (${message.creator.login})</h4>
+               <h4 class="panel-heading col-lg-7">${service.serviceName}</h4>
+               <h4 class="panel-heading col-lg-5"><fmt:message key="label.title.from"/> ${service.patient} ${service.doctor} (${service.price})</h4>
                <div class="panel-body">
-                   <div class="col-lg-7">${message.message}</div>
+
                    <div class="col-lg-3">
                        <label><fmt:message key="label.creating.time"/>:</label>
-                       <div>${message.creationTime}</div>
                    </div>
                    <div class="col-lg-2">
-                       <button type="button" onclick="window.location.href='${context}/main?command=deleteMessage&messageid=${message.messageId}'" class="btn btn-default pull-right"><fmt:message key="label.delete.message"/></button>
+                       <button type="button" onclick="window.location.href='${context}/main?command=deleteMessage&messageid=${service.serviceId}'" class="btn btn-default pull-right"><fmt:message key="label.delete.message"/></button>
                        <br>
-                       <button type="button" onclick="window.location.href='${context}/main?command=updateIsReadMessage&messageid=${message.messageId}&isRead=false'" class="btn btn-primary pull-right"><fmt:message key="label.markasunread.message"/></button>
+                       <button type="button" onclick="window.location.href='${context}/main?command=updateIsReadMessage&messageid=${service.serviceId}&isRead=false'" class="btn btn-primary pull-right"><fmt:message key="label.markasunread.message"/></button>
                    </div>
 
 

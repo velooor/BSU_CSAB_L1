@@ -1,0 +1,4 @@
+INSERT INTO `csab_l1`.`account` (`login`, `email`, `password`, `name`, `surname`, `admin`, `birthDate`) VALUES ('admin', 'abc@example.com', 'qwert', 'Administartor', '(admin)', '1', '1996-01-01');
+INSERT INTO `csab_l1`.`dictionary` (`dictionaryName`) VALUES ('account');
+INSERT INTO `csab_l1`.`dictionary` (`dictionaryName`) VALUES ('medicalservice');
+INSERT INTO `csab_l1`.`doctor` (`doctorName`, `doctorSurname`, `prof`) VALUES ('John', 'Braims', 'terapevt');
