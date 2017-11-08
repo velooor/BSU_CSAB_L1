@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-25 text-center">
 
-                <a class="casino" href="${context}/index.jsp">Casino Elgrand</a>
+                <a class="casino" href="${context}/index.jsp">Medical Center</a>
             </div>
         </div>
     </div>

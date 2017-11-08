@@ -14,7 +14,8 @@ public class MedService {
     private Date serviceDate;
     private String description;
 
-    public MedService(String serviceName, int patient, int doctor, double price, Date serviceDate, String description) {
+    public MedService(int serviceId, String serviceName, int patient, int doctor, double price, Date serviceDate, String description) {
+        this.serviceId = serviceId;
         this.serviceName = serviceName;
         this.patient = patient;
         this.doctor = doctor;

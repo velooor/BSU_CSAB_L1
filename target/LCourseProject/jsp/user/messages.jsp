@@ -60,7 +60,7 @@
                                <input type="text" name="patientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>
                            </div>
                            <div class="form-group-lg">
-                               <input type="date" name="serviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2013-01-01" required>
+                               <input type="date" name="serviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2017-01-01" required>
                            </div>
                            <div class="form-group-lg">
                                <input type="text" name="doctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
@@ -75,7 +75,6 @@
                            <p class="message">
                                ${NewMessageMessage}
                            </p>
-
                            <hr>
                        </form>
                 </div>
@@ -93,18 +92,70 @@
        <div class="page-header text-center"></div>
        <c:forEach var="service" items="${readMessages}">
            <div class="panel panel-default col-lg-12">
-               <h4 class="panel-heading col-lg-7">${service.serviceName}</h4>
-               <h4 class="panel-heading col-lg-5"><fmt:message key="label.title.from"/> ${service.patient} ${service.doctor} (${service.price})</h4>
-               <div class="panel-body">
+               <h4 class="panel-heading col-lg-5"><fmt:message key="label.service.id"/>: ${service.serviceId}</h4>
+               <h4 class="panel-heading col-lg-5"><fmt:message key="label.service.name"/>: ${service.serviceName}</h4>
+                <div class="panel-body">
+                    <h6 class="panel-heading col-lg-5"><fmt:message key="label.patient.id"/>: ${service.patient}</h6>
+                    <h6 class="panel-heading col-lg-5"><fmt:message key="label.doctor.id"/>: ${service.doctor}</h6>
+                    <h6 class="panel-heading col-lg-5"><fmt:message key="label.service.price"/>: ${service.price}</h6>
+                    <h6 class="panel-heading col-lg-5"><fmt:message key="label.service.date"/>: ${service.serviceDate}</h6>
+                    <h6 class="panel-heading col-lg-5"><fmt:message key="label.service.descrption"/>: ${service.description}</h6>
 
-                   <div class="col-lg-3">
-                       <label><fmt:message key="label.creating.time"/>:</label>
-                   </div>
-                   <div class="col-lg-2">
-                       <button type="button" onclick="window.location.href='${context}/main?command=deleteMessage&messageid=${service.serviceId}'" class="btn btn-default pull-right"><fmt:message key="label.delete.message"/></button>
-                       <br>
-                       <button type="button" onclick="window.location.href='${context}/main?command=updateIsReadMessage&messageid=${service.serviceId}&isRead=false'" class="btn btn-primary pull-right"><fmt:message key="label.markasunread.message"/></button>
-                   </div>
+                    <div class="col-lg-2">
+                       <button type="button" onclick="window.location.href='${context}/main?command=deleteMessage&messageid=${service.serviceId}'" class="btn btn-default pull-right"><fmt:message key="label.delete.service"/></button>
+
+                        <br>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".change-message-modal-lg"><fmt:message key="label.change.service"/></button>
+
+                    </div>
+
+
+                    <div class="modal fade change-message-modal-lg" tabindex="-1" role="dialog" aria-labelledby="NewMessage">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h3 class="modal-title"><fmt:message key="label.change.service"/></h3>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="changeMessageForm" name="changeMessageForm" action="/main" method="post" onsubmit="return validateForm ( )">
+
+
+                                        <div class="form-group">
+                                            <input type="text" id="CHserviceName" name="CHserviceName" class="form-control"  value="" placeholder="<fmt:message key="label.service.name"/>" minlength="2" maxlength="30">
+                                        </div>
+
+                                        <div class="form-group-lg">
+                                            <input type="text" name="CHpatientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>
+                                        </div>
+                                        <div class="form-group-lg">
+                                            <input type="date" name="CHserviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2017-01-01" required>
+                                        </div>
+                                        <div class="form-group-lg">
+                                            <input type="text" name="CHdoctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
+                                        </div>
+                                        <div class="form-group-lg">
+                                            <input type="number" name="CHprice" class="form-control"  placeholder="<fmt:message key="label.service.price"/>*" required/>
+                                        </div>
+                                        <div class="form-group-lg">
+                                            <input type="text" name="CHdescription" class="form-control" placeholder="<fmt:message key="label.service.descrption"/>*" required/>
+                                        </div>
+                                        <input type="hidden" name="CHserviceId" value="${service.serviceId}">
+                                        <input type="hidden" name="command" value="CHmessage">
+                                        <p class="message">
+                                                ${NewMessageMessage}
+                                        </p>
+                                        <hr>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><fmt:message key="label.close"/></button>
+                                    <button type="submit" form="changeMessageForm" class="btn btn-primary"><fmt:message key="label.submit"/></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
 
                </div>

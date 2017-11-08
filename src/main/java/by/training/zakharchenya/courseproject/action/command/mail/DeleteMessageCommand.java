@@ -3,6 +3,7 @@ package by.training.zakharchenya.courseproject.action.command.mail;
 import by.training.zakharchenya.courseproject.action.Command;
 import by.training.zakharchenya.courseproject.entity.Visitor;
 import by.training.zakharchenya.courseproject.logic.MailLogic;
+import by.training.zakharchenya.courseproject.logic.MedServiceLogic;
 import by.training.zakharchenya.courseproject.manager.ConfigurationManager;
 import by.training.zakharchenya.courseproject.servlet.Constants;
 
@@ -27,11 +28,9 @@ public class DeleteMessageCommand implements Command {
 
         Visitor visitor = (Visitor)request.getSession().getAttribute(Constants.VISITOR_KEY);
 
-        MailLogic.Result res = MailLogic.deleteMessage(messageID);
+        //MailLogic.Result res = MailLogic.deleteMessage(messageID);
+        MedServiceLogic.deleteMessage(messageID);
 
-        if (res == MailLogic.Result.SUCCESS) {
-            visitor.setCurrentPage(ConfigurationManager.getProperty(Constants.PAGE_MESSAGES));
-        }
         page = ConfigurationManager.getProperty(Constants.PAGE_MESSAGES);
         return page;
     }

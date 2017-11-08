@@ -1,10 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LCourseProject:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c701756e-247c-47a1-bd30-9153318a8536" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/csab_L1.mwb" afterPath="$PROJECT_DIR$/database/csab_L1.mwb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/csab_L1.mwb.bak" afterPath="$PROJECT_DIR$/database/csab_L1.mwb.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/Rockaway-Pic_web.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/700059eb-d8aa-4e45-8e7a-bd00f1515f89.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject.war" afterPath="$PROJECT_DIR$/target/LCourseProject.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandType.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeAvatarCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeAvatarCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeNameCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeNameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand$1.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ResetAvatarCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/ResetAvatarCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AdminDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AdminDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/GameDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/GameDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MailDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MailDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MedServiceDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MedServiceDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MoneyDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MoneyDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/database/ConnectionPool.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/database/ConnectionPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/database/DBInitializer.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/database/DBInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/Account.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/CreditBalance.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/CreditBalance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/MedService.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/MedService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/Message.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/Message.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/Visitor.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/Visitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/AccountListFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/AccountListFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/AdminFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/AdminFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/CurrentPageFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/CurrentPageFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/EncodingFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/EncodingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/GameLoadFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/GameLoadFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/SettingsFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/SettingsFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/VisitorFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/VisitorFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/AdminLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/AdminLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/ChangeAccountLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/ChangeAccountLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/GameLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/GameLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/LoginLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/LoginLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MailLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MailLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MedServiceLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MedServiceLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/SingUpLogic.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/SingUpLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/manager/ImageManager.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/manager/ImageManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/servlet/Controller.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/servlet/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandType.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeAvatarCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeAvatarCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeNameCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangeNameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand$1.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ChangePasswordCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ResetAvatarCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/ResetAvatarCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AdminDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AdminDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/GameDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/GameDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MailDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MailDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MedServiceDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MedServiceDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MoneyDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MoneyDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/database/ConnectionPool.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/database/ConnectionPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/database/DBInitializer.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/database/DBInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/Account.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/Account.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/CreditBalance.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/CreditBalance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/MedService.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/MedService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/Message.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/Message.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/Visitor.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/Visitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/AccountListFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/AccountListFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/AdminFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/AdminFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/CurrentPageFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/CurrentPageFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/EncodingFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/EncodingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/GameLoadFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/GameLoadFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/SettingsFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/SettingsFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/UserFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/VisitorFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/VisitorFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/AdminLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/AdminLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/ChangeAccountLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/ChangeAccountLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/GameLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/GameLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/LoginLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/LoginLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MailLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MailLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MedServiceLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MedServiceLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/SingUpLogic.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/SingUpLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/manager/ImageManager.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/manager/ImageManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/servlet/Controller.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/servlet/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d0d85212-727d-43c9-af77-f7a2a16ea5e2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d0d85212-727d-43c9-af77-f7a2a16ea5e2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LCourseProject.iml" afterPath="$PROJECT_DIR$/LCourseProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/LCourseProject/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_en_US.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_ru_RU.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/footer.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/header.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/css/style.css" afterPath="$PROJECT_DIR$/target/LCourseProject/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/guest/welcome.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/guest/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/user/main.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/user/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/user/messages.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/user/messages.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/target/classes/properties/pagecontent_en_US.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/target/classes/properties/pagecontent_ru_RU.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,164 +166,102 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="csab_l1@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="csab_l1@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="medicalservice" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="csab_l1@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="csab_l1@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="csab_l1" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.755112">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="892">
-                  <caret line="60" column="30" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="60" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="NewServiceCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ServiceLoadFilter.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CommandFactory.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-306">
-                  <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MedServiceDAO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-88">
-                  <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1605#1606#0" expanded="true" />
-                    <element signature="e#1638#1639#0" expanded="true" />
-                    <marker date="1510087393760" expanded="true" signature="559:712" ph="INSERT INTO `medicalservice`... " />
-                    <marker date="1510087393760" expanded="true" signature="802:833" ph="SELECT * FRO... medicalservice" />
-                    <marker date="1510087393760" expanded="true" signature="897:940" ph="DELETE FROM " />
-                    <marker date="1510087393760" expanded="true" signature="1011:1066" ph="UPDATE `mess... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AccountDAO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-                  <folding>
-                    <marker date="1510070859988" expanded="true" signature="501:655" ph="INSERT INTO `account`... " />
-                    <marker date="1510070859988" expanded="true" signature="714:800" ph="INSERT INTO `creditcardinfo`... " />
-                    <marker date="1510070859988" expanded="true" signature="875:935" ph="SELECT 1 FRO... account" />
-                    <marker date="1510070859988" expanded="true" signature="1001:1042" ph="SELECT 1 FRO... account" />
-                    <marker date="1510070859988" expanded="true" signature="1107:1219" ph="SELECT `acco... account" />
-                    <marker date="1510070859988" expanded="true" signature="1289:1344" ph="UPDATE `acco... " />
-                    <marker date="1510070859988" expanded="true" signature="1397:1532" ph="SELECT `acco... account" />
-                    <marker date="1510070859988" expanded="true" signature="1594:1730" ph="SELECT `acco... account" />
-                    <marker date="1510070859988" expanded="true" signature="1800:1853" ph="UPDATE `acco... " />
-                    <marker date="1510070859988" expanded="true" signature="1924:1980" ph="UPDATE `acco... " />
-                    <marker date="1510070859988" expanded="true" signature="2043:2108" ph="SELECT 1 FRO... account" />
-                    <marker date="1510070859988" expanded="true" signature="2180:2237" ph="UPDATE `acco... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MedServiceLogic.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="messages.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="100" column="79" lean-forward="false" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="MedService.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="254">
-                  <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeServiceCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedServiceDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1510139695930" expanded="true" signature="559:712" ph="INSERT INTO `medicalservice`... " />
+                <marker date="1510139695930" expanded="true" signature="802:833" ph="SELECT * FRO... medicalservice" />
+                <marker date="1510139695930" expanded="true" signature="897:947" ph="DELETE FROM " />
+                <marker date="1510139695930" expanded="true" signature="1018:1073" ph="UPDATE `mess... " />
+                <marker date="1510139695930" expanded="true" signature="1136:1290" ph="UPDATE `acco... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="124" column="90" lean-forward="false" selection-start-line="124" selection-start-column="90" selection-end-line="124" selection-end-column="90" />
+              <folding>
+                <element signature="e#6805#6812#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedServiceLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,13 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/database/DBInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/database/ProxyConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/CreditBalance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/game/MultiGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/game/SingleGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/exception/DAOException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/exception/LogicException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/VisitorFilter.java" />
@@ -227,27 +306,34 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/diff.tld" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/admin/admin_settings.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/error/error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/game.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/multiGame.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/waitForGame.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/UserFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/profile_settings.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewMessageCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java" />
+        <option value="$PROJECT_DIR$/LCourseProject.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
       </list>
     </option>
@@ -272,11 +358,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="2578" />
-    <option name="height" value="1420" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -293,507 +382,191 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'pagecontent'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BSU_CSAB_L1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="change" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'pagecontent'" type="a6c14932:ResourceBundleNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jspf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
@@ -806,18 +579,6 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\System\Рабочий стол\LCourseProject27\src\main\webapp" />
-      <recent name="D:\System\Рабочий стол\LCourseProject27\src\main\webapp\WEB-INF\jspf" />
-      <recent name="D:\System\Рабочий стол\LCourseProject24\src\main\java\by\training\zakharchenya\courseproject" />
-      <recent name="D:\System\Рабочий стол\LCourseProject24\src\main\webapp\css" />
-      <recent name="D:\System\Рабочий стол\LCourseProject24\src\main\webapp\js" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="by.training.zakharchenya.courseproject.filter" />
-      <recent name="by.training.zakharchenya.courseproject.action.command.changecommand" />
-      <recent name="by.training.zakharchenya.courseproject.manager" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\System\Рабочий стол\LCourseProject44\src\main\webapp\images" />
       <recent name="D:\System\Рабочий стол\LCourseProject27\src\main\webapp" />
@@ -825,25 +586,200 @@
       <recent name="D:\System\Рабочий стол\LCourseProject22\src\main\resources\images" />
       <recent name="D:\System\Google Диск\Parta\epam\Project\LCourseProject\src\main\webapp\css\bootstrap" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.training.zakharchenya.courseproject.filter" />
+      <recent name="by.training.zakharchenya.courseproject.action.command.changecommand" />
+      <recent name="by.training.zakharchenya.courseproject.manager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\veloo\Desktop\BSU_CSAB_L1\src\main\webapp\css" />
+      <recent name="D:\System\Рабочий стол\LCourseProject27\src\main\webapp" />
+      <recent name="D:\System\Рабочий стол\LCourseProject27\src\main\webapp\WEB-INF\jspf" />
+      <recent name="D:\System\Рабочий стол\LCourseProject24\src\main\java\by\training\zakharchenya\courseproject" />
+      <recent name="D:\System\Рабочий стол\LCourseProject24\src\main\webapp\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.0">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
+    <configuration name="Tomcat 9.0.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="LCourseProject:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_LCourseProject" />
+      </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55470" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="LCourseProject:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -898,29 +834,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -1069,36 +982,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -1154,55 +1037,21 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1218,81 +1067,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 9.0.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M22" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="LCourseProject:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_LCourseProject" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55470" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="LCourseProject:war" />
-        </option>
-      </method>
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.0" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1374,6 +1148,7 @@
       <workItem from="1496850418985" duration="15315000" />
       <workItem from="1509483568000" duration="710000" />
       <workItem from="1510065760111" duration="11594000" />
+      <workItem from="1510128610209" duration="5605000" />
     </task>
     <task id="LOCAL-00001" summary="pre-final">
       <created>1510088330367</created>
@@ -1386,48 +1161,48 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423273000" />
+    <option name="totallyTimeSpent" value="428878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1420" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.3524962" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13908873" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34820718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37609562" sideWeight="0.6475038" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.3524962" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37597504" sideWeight="0.6475038" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17905675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22327965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13836017" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34789392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14348522" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1445,13 +1220,13 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="89" />
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="91" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1460,78 +1235,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/exception/LogicException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="85" lean-forward="false" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/game/SingleGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/exception/DAOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/ChangeAccountLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="77" column="7" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="77" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/GameLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="59" column="71" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/database/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/diff.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/admin_settings.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -1572,14 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/insert.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1587,14 +1282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d0d85212-727d-43c9-af77-f7a2a16ea5e2/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d0d85212-727d-43c9-af77-f7a2a16ea5e2/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AbstractDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1615,15 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="58" column="59" lean-forward="false" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="73" column="93" lean-forward="false" selection-start-line="73" selection-start-column="93" selection-end-line="73" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1647,7 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1655,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,7 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1671,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="37" column="91" lean-forward="true" selection-start-line="37" selection-start-column="91" selection-end-line="37" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1687,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1695,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1723,33 +1394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="135" column="36" lean-forward="false" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="140" column="33" lean-forward="false" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="72" column="16" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1777,30 +1425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="892">
-          <caret line="60" column="30" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="60" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="24" column="27" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#2954#2955#0" expanded="false" />
-            <element signature="e#2996#2997#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1808,90 +1436,244 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LCourseProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="89" column="16" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="89" selection-end-column="16" />
           <folding>
-            <marker date="1496830392000" expanded="true" signature="590:791" ph="{...}" />
+            <marker date="1510131801774" expanded="false" signature="3304:3311" ph="×" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="488">
+          <caret line="139" column="35" lean-forward="false" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="144" column="31" lean-forward="false" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="53" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/GameDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <marker date="1510126751013" expanded="true" signature="560:658" ph="INSERT INTO `game`... " />
+            <marker date="1510126751013" expanded="true" signature="717:766" ph="UPDATE `game... " />
+            <marker date="1510126751013" expanded="true" signature="831:1006" ph="UPDATE `game... " />
+            <marker date="1510126751013" expanded="true" signature="1080:1397" ph="SELECT `game... gameId" />
+            <marker date="1510126751013" expanded="true" signature="1204:1302" ph="SELECT `game... game" />
+            <marker date="1510126751013" expanded="true" signature="1474:1652" ph="SELECT `game... game" />
+            <marker date="1510126751013" expanded="true" signature="1728:2197" ph="SELECT `game... gameId" />
+            <marker date="1510126751013" expanded="true" signature="1934:2100" ph="SELECT `game... game" />
+            <marker date="1510126751013" expanded="true" signature="2276:2771" ph="SELECT `game... gameId" />
+            <marker date="1510126751013" expanded="true" signature="2482:2674" ph="SELECT `game... game" />
+            <marker date="1510126751013" expanded="true" signature="2832:2869" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1510126751011" expanded="true" signature="523:635" ph="SELECT `acco... account" />
+            <marker date="1510126751011" expanded="true" signature="691:746" ph="SELECT `minN... adminstration" />
+            <marker date="1510126751011" expanded="true" signature="818:873" ph="UPDATE `acco... " />
+            <marker date="1510126751011" expanded="true" signature="928:968" ph="UPDATE `admi... " />
+            <marker date="1510126751011" expanded="true" signature="1024:1071" ph="UPDATE `admi... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="299">
+          <caret line="32" column="128" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="128" />
           <folding>
-            <marker date="1510070859988" expanded="true" signature="501:655" ph="INSERT INTO `account`... " />
-            <marker date="1510070859988" expanded="true" signature="714:800" ph="INSERT INTO `creditcardinfo`... " />
-            <marker date="1510070859988" expanded="true" signature="875:935" ph="SELECT 1 FRO... account" />
-            <marker date="1510070859988" expanded="true" signature="1001:1042" ph="SELECT 1 FRO... account" />
-            <marker date="1510070859988" expanded="true" signature="1107:1219" ph="SELECT `acco... account" />
-            <marker date="1510070859988" expanded="true" signature="1289:1344" ph="UPDATE `acco... " />
-            <marker date="1510070859988" expanded="true" signature="1397:1532" ph="SELECT `acco... account" />
-            <marker date="1510070859988" expanded="true" signature="1594:1730" ph="SELECT `acco... account" />
-            <marker date="1510070859988" expanded="true" signature="1800:1853" ph="UPDATE `acco... " />
-            <marker date="1510070859988" expanded="true" signature="1924:1980" ph="UPDATE `acco... " />
-            <marker date="1510070859988" expanded="true" signature="2043:2108" ph="SELECT 1 FRO... account" />
-            <marker date="1510070859988" expanded="true" signature="2180:2237" ph="UPDATE `acco... " />
+            <marker date="1510126751009" expanded="true" signature="501:655" ph="INSERT INTO `account`... " />
+            <marker date="1510126751009" expanded="true" signature="714:800" ph="INSERT INTO `creditcardinfo`... " />
+            <marker date="1510126751009" expanded="true" signature="875:935" ph="SELECT 1 FRO... account" />
+            <marker date="1510126751009" expanded="true" signature="1001:1042" ph="SELECT 1 FRO... account" />
+            <marker date="1510126751009" expanded="true" signature="1107:1219" ph="SELECT `acco... account" />
+            <marker date="1510126751009" expanded="true" signature="1289:1344" ph="UPDATE `acco... " />
+            <marker date="1510126751009" expanded="true" signature="1397:1532" ph="SELECT `acco... account" />
+            <marker date="1510126751009" expanded="true" signature="1594:1730" ph="SELECT `acco... account" />
+            <marker date="1510126751009" expanded="true" signature="1800:1853" ph="UPDATE `acco... " />
+            <marker date="1510126751009" expanded="true" signature="1924:1980" ph="UPDATE `acco... " />
+            <marker date="1510126751009" expanded="true" signature="2043:2108" ph="SELECT 1 FRO... account" />
+            <marker date="1510126751009" expanded="true" signature="2180:2237" ph="UPDATE `acco... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="188">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <marker date="1510087393760" expanded="true" signature="559:712" ph="INSERT INTO `medicalservice`... " />
-            <marker date="1510087393760" expanded="true" signature="802:833" ph="SELECT * FRO... medicalservice" />
-            <marker date="1510087393760" expanded="true" signature="897:940" ph="DELETE FROM " />
-            <marker date="1510087393760" expanded="true" signature="1011:1066" ph="UPDATE `mess... " />
+            <marker date="1510139695930" expanded="true" signature="559:712" ph="INSERT INTO `medicalservice`... " />
+            <marker date="1510139695930" expanded="true" signature="802:833" ph="SELECT * FRO... medicalservice" />
+            <marker date="1510139695930" expanded="true" signature="897:947" ph="DELETE FROM " />
+            <marker date="1510139695930" expanded="true" signature="1018:1073" ph="UPDATE `mess... " />
+            <marker date="1510139695930" expanded="true" signature="1136:1290" ph="UPDATE `acco... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="129">
+          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="100" column="79" lean-forward="false" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="124" column="90" lean-forward="false" selection-start-line="124" selection-start-column="90" selection-end-line="124" selection-end-column="90" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6805#6812#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="66">
+          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -72,7 +72,7 @@
             </div>
         </div>
     </div>
-    <%@include file="../../WEB-INF/jspf/content.jsp"%>
+    <%--<%@include file="../../WEB-INF/jspf/content.jsp"%>--%>
 </main>
 
 

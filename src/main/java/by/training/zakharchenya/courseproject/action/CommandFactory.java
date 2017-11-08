@@ -5,6 +5,7 @@ import by.training.zakharchenya.courseproject.action.command.admin.ChangeAdminPa
 import by.training.zakharchenya.courseproject.action.command.admin.UpdateUserStatusCommand;
 import by.training.zakharchenya.courseproject.action.command.change.*;
 import by.training.zakharchenya.courseproject.action.command.game.*;
+import by.training.zakharchenya.courseproject.action.command.mail.ChangeServiceCommand;
 import by.training.zakharchenya.courseproject.action.command.mail.DeleteMessageCommand;
 import by.training.zakharchenya.courseproject.action.command.mail.NewServiceCommand;
 import by.training.zakharchenya.courseproject.action.command.mail.UpdateMessageCommand;
@@ -75,6 +76,8 @@ public class CommandFactory {
                 return new MultiGameMoveCommand();
             case CHECK_MULTI_GAME:
                 return new CheckMultiGameCommand();
+            case CHANGE_SERVICE:
+                return new ChangeServiceCommand();
         }
         return null;
     }

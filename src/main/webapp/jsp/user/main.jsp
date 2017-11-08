@@ -40,7 +40,7 @@
             <h3><fmt:message key="main.welcome"/></h3>
         </div>
 
-        <div class="row text-center">
+        <%--<div class="row text-center">
             <div class="text-center col-lg-6 visText">
                 <a class="buttonPicture" data-toggle="modal" data-target=".rate-settings-modal-lg"><img src="${context}/images/single.jpg" alt="" height="200" ></a>
                 <a class="buttonPicture" data-toggle="modal" data-target=".rate-settings-modal-lg"><h1 class="visText"><fmt:message key="label.single.game"/></h1></a>
@@ -50,9 +50,9 @@
                 <a href="${context}/jsp/user/waitForGame.jsp" class="buttonPicture"> <h1 class="visText"><fmt:message key="label.multi.game"/></h1></a>
             </div>
 
-        </div>
+        </div>--%>
 
-        <br><br>
+       <%-- <br><br>
 
         <div class="modal fade rate-settings-modal-lg" tabindex="-1" role="dialog" aria-labelledby="RateSettings">
             <div class="modal-dialog modal-lg" role="document">
@@ -87,8 +87,8 @@
 
             </div>
         </div>
-        <br>
-        <%@include file="../../WEB-INF/jspf/content.jsp"%>
+        <br>--%>
+        <%--<%@include file="../../WEB-INF/jspf/content.jsp"%>--%>
     </main>
 
 

@@ -40,24 +40,35 @@ public class MedServiceLogic {
         }
     }
 
+    public static boolean changeService(int id, String serviceName, String description, double price, int doctord, int patientId, String date) {
+        try (Connection connection = ConnectionPool.getInstance().getConnection()){
+            connection.setAutoCommit(false);
+            MedServiceDAO medServiceDAO = new MedServiceDAO(connection);
+            medServiceDAO.changeMedService(id,  serviceName,  description,  price,  doctord,  patientId,  date);
+            connection.commit();
+            return true;
+        } catch (SQLException | DAOException e) {
+            LOG.log(Level.ERROR, "Problems with addService operation.", e);
+            return false;
+        }
+    }
+
     /**Deletes message by id in database.
      * @param messageId message id
      * @return corresponding result enum
      */
-    public static MailLogic.Result deleteMessage(int messageId) {
+    public static boolean deleteMessage(int messageId) {
         try (Connection connection = ConnectionPool.getInstance().getConnection()){
             connection.setAutoCommit(false);
-            MailLogic.Result res;
-            MailDAO mailDAO = new MailDAO(connection);
+            MedServiceDAO medServiceDAO = new MedServiceDAO(connection);
 
-            mailDAO.removeMessageById(messageId);
-            res = MailLogic.Result.SUCCESS;
+            medServiceDAO.removeMessageById(messageId);
 
             connection.commit();
-            return res;
+            return true;
         } catch (SQLException | DAOException e) {
             LOG.log(Level.ERROR, "Problems with deleteMessage operation.", e);
-            return MailLogic.Result.EXCEPTION;
+            return false;
         }
     }
 

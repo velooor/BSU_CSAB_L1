@@ -44,15 +44,15 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="head" href="${context}/jsp/user/profile_settings.jsp">${ttll:nullCheck(account.name)} ${ttll:nullCheck(account.surname)}</a></li>
                     <li><a class="head" href="${context}/jsp/user/profile_settings.jsp"><img class="img-circle" height="28" width="28" src="${context}/main?command=loadImage&id=${account.accountId}&src=account" alt="Avatar"></a></li>
-                    <li><a id="MoneyAmount" class="head" href="${context}/jsp/user/profile_settings.jsp">${ttll:nullCheck(creditBalance.moneyAmount)} $</a></li>
-                    <li><a class="head" href="${context}/jsp/user/messages.jsp"><fmt:message key="label.messages"/></a></li>
+                    <%--<li><a id="MoneyAmount" class="head" href="${context}/jsp/user/profile_settings.jsp">${ttll:nullCheck(creditBalance.moneyAmount)} $</a></li>--%>
+                    <li><a class="head" href="${context}/jsp/user/messages.jsp"><fmt:message key="label.med.services"/></a></li>
                         <li><a class="head" href="/main?command=logout"><fmt:message key="label.sign.out"/></a></li>
                 </ul>
-                <ttll:admin role="${visitor.role}">
+                <%--<ttll:admin role="${visitor.role}">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="head" href="${context}/jsp/admin/admin_settings.jsp"><fmt:message key="label.adminsettings"/></a></li>
                     </ul>
-                </ttll:admin>
+                </ttll:admin>--%>
             </ttll:notguest>
         </div>
     </div>
