@@ -2,15 +2,11 @@ package by.training.zakharchenya.courseproject.action.command.sign;
 
 import by.training.zakharchenya.courseproject.action.Command;
 import by.training.zakharchenya.courseproject.entity.Account;
-import by.training.zakharchenya.courseproject.entity.CreditBalance;
 import by.training.zakharchenya.courseproject.entity.Visitor;
-import by.training.zakharchenya.courseproject.exception.LogicException;
 import by.training.zakharchenya.courseproject.logic.LoginLogic;
-import by.training.zakharchenya.courseproject.logic.MoneyInfoLogic;
 import by.training.zakharchenya.courseproject.manager.ConfigurationManager;
 import by.training.zakharchenya.courseproject.manager.MessageManager;
 import by.training.zakharchenya.courseproject.servlet.Constants;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

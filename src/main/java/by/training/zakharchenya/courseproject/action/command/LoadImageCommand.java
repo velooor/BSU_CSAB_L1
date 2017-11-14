@@ -2,7 +2,6 @@ package by.training.zakharchenya.courseproject.action.command;
 
 import by.training.zakharchenya.courseproject.action.Command;
 import by.training.zakharchenya.courseproject.entity.Account;
-import by.training.zakharchenya.courseproject.entity.game.MultiGame;
 import by.training.zakharchenya.courseproject.manager.ImageManager;
 import by.training.zakharchenya.courseproject.servlet.Constants;
 import javax.servlet.http.HttpServletRequest;
@@ -62,15 +61,6 @@ public class LoadImageCommand implements Command {
                        image = user.getAvatar();
                     }
                 }
-                break;
-            case MULTIGAME:
-                MultiGame mg = (MultiGame) request.getSession().getAttribute(Constants.MULTI_GAME_KEY);
-                if(mg.getPlayer().getAccountId() == id){
-                    image = mg.getPlayer().getAvatar();
-                }else if(mg.getCreator().getAccountId() == id){
-                    image = mg.getCreator().getAvatar();
-                }
-
                 break;
 
         }

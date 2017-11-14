@@ -17,7 +17,8 @@ public class Constants {
     public static final String PAGE_ADMINSETTINGS = "path.page.adminsettings";
     public static final String PAGE_SINGLE_GAME = "path.page.singlegame";
     public static final String PAGE_WAITING = "path.page.waitng";
-    public static final String PAGE_MULTIGAME = "path.page.multigame";
+    public static final String PAGE_DOCTORS = "path.page.doctors";
+
 
     public static final String LOCALE_ATTRIBUTE="sing";
     public static final String SINGIN_ATTRIBUTE="singin";
@@ -34,6 +35,8 @@ public class Constants {
 
     public static final String READ_MESSAGES_KEY = "readMessages";
     public static final String UNREAD_MESSAGES_KEY = "unreadMessages";
+
+    public static final String DOCTORS_KEY = "doctors";
 
     public static final String ACTIVE_USERS_KEY = "activeUsers";
     public static final String BANNED_USERS_KEY = "bannedUsers";

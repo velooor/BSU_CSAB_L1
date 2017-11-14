@@ -32,4 +32,6 @@ public class CommandType {
     public static final String MOVE_MULTI_GAME = "multiGameMove";
     public static final String CHECK_MULTI_GAME = "checkForChanges";
     public static final String CHANGE_SERVICE = "CHmessage";
+    public static final String ADD_DOCTOR = "adddoctor";
+
 }

@@ -62,14 +62,19 @@
                            <div class="form-group-lg">
                                <input type="date" name="serviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2017-01-01" required>
                            </div>
-                           <div class="form-group-lg">
+                           <%--<div class="form-group-lg">
                                <input type="text" name="doctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
-                           </div>
+                           </div>--%>
+                           <select name="doctorId">
+                               <c:forEach var="item" items="${doctors}">
+                                   <option value="${item.doctorId}">${item.doctorName} ${item.doctorSurname} ${item.prof}</option>
+                               </c:forEach>
+                           </select>
                            <div class="form-group-lg">
                                <input type="number" name="price" class="form-control"  placeholder="<fmt:message key="label.service.price"/>*" required/>
                            </div>
                            <div class="form-group-lg">
-                               <input type="text" name="description" class="form-control" placeholder="<fmt:message key="label.service.descrption"/>*" required/>
+                               <textarea id="description" name="description" class="form-control" rows="5" placeholder="<fmt:message key="label.service.descrption"/>" minlength="1" maxlength="5000" required></textarea>
                            </div>
                            <input type="hidden" name="command" value="newmessage">
                            <p class="message">
@@ -138,7 +143,9 @@
                                             <input type="number" name="CHprice" class="form-control"  placeholder="<fmt:message key="label.service.price"/>*" required/>
                                         </div>
                                         <div class="form-group-lg">
-                                            <input type="text" name="CHdescription" class="form-control" placeholder="<fmt:message key="label.service.descrption"/>*" required/>
+                                            <%--<input type="text" name="CHdescription" class="form-control" placeholder="<fmt:message key="label.service.descrption"/>*" required/>--%>
+                                            <textarea id="CHdescription" name="CHdescription" class="form-control" rows="5" placeholder="<fmt:message key="label.service.descrption"/>" minlength="1" maxlength="5000" required></textarea>
+
                                         </div>
                                         <input type="hidden" name="CHserviceId" value="${service.serviceId}">
                                         <input type="hidden" name="command" value="CHmessage">

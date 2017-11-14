@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Class DAO, serves for working with mail data in database
+/** Class DAO, serves for working with medservice data in database
  * @author Vadim Zakharchenya
  * @version 1.0
  */

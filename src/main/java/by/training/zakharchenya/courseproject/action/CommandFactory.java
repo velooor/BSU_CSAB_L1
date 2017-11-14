@@ -1,14 +1,12 @@
 package by.training.zakharchenya.courseproject.action;
 
 import by.training.zakharchenya.courseproject.action.command.*;
-import by.training.zakharchenya.courseproject.action.command.admin.ChangeAdminParamCommand;
-import by.training.zakharchenya.courseproject.action.command.admin.UpdateUserStatusCommand;
 import by.training.zakharchenya.courseproject.action.command.change.*;
-import by.training.zakharchenya.courseproject.action.command.game.*;
-import by.training.zakharchenya.courseproject.action.command.mail.ChangeServiceCommand;
-import by.training.zakharchenya.courseproject.action.command.mail.DeleteMessageCommand;
-import by.training.zakharchenya.courseproject.action.command.mail.NewServiceCommand;
-import by.training.zakharchenya.courseproject.action.command.mail.UpdateMessageCommand;
+import by.training.zakharchenya.courseproject.action.command.doctor.AddDoctorCommand;
+import by.training.zakharchenya.courseproject.action.command.medservice.ChangeServiceCommand;
+import by.training.zakharchenya.courseproject.action.command.medservice.DeleteMessageCommand;
+import by.training.zakharchenya.courseproject.action.command.medservice.NewServiceCommand;
+import by.training.zakharchenya.courseproject.action.command.medservice.UpdateMessageCommand;
 import by.training.zakharchenya.courseproject.action.command.sign.SignInCommand;
 import by.training.zakharchenya.courseproject.action.command.sign.SignUpCommand;
 import javax.servlet.http.HttpServletRequest;
@@ -54,30 +52,10 @@ public class CommandFactory {
                 return new ChangeNameCommand();
             case CHANGE_PASSWORD:
                 return new ChangePasswordCommand();
-            case UPDATE_USER_STATUS:
-                return new UpdateUserStatusCommand();
-            case CHANGE_ADMIN_PARAM:
-                return new ChangeAdminParamCommand();
-            case TOP_UP_ACCOUNT:
-                return new TopUpAccountCommand();
-            case PLAY:
-                return new PlayCommand();
-            case CREATE_GAME:
-                return new CreateMultiGameCommand();
-            case END_OF_SINGLE_ROUND:
-                return new EndOfSingleRound();
-            case DELETE_GAME:
-                return new DeleteGameCommand();
-            case START_MULTI_GAME:
-                return new StartMultiGameCommand();
-            case RETURN_MULTI_GAME:
-                return new ReturnToMultiGameCommand();
-            case MOVE_MULTI_GAME:
-                return new MultiGameMoveCommand();
-            case CHECK_MULTI_GAME:
-                return new CheckMultiGameCommand();
             case CHANGE_SERVICE:
                 return new ChangeServiceCommand();
+            case ADD_DOCTOR:
+                return new AddDoctorCommand();
         }
         return null;
     }

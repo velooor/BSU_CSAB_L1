@@ -2,8 +2,10 @@ package by.training.zakharchenya.courseproject.filter;
 
 import by.training.zakharchenya.courseproject.dao.MedServiceDAO;
 import by.training.zakharchenya.courseproject.entity.Account;
+import by.training.zakharchenya.courseproject.entity.Doctor;
 import by.training.zakharchenya.courseproject.entity.MedService;
 import by.training.zakharchenya.courseproject.entity.Message;
+import by.training.zakharchenya.courseproject.logic.DoctorService;
 import by.training.zakharchenya.courseproject.logic.MailLogic;
 import by.training.zakharchenya.courseproject.logic.MedServiceLogic;
 import by.training.zakharchenya.courseproject.servlet.Constants;
@@ -31,9 +33,12 @@ public class ServiceLoadFilter implements Filter {
         HttpSession ses = request.getSession();
 
         List<MedService> allMessages;
-        Account account = (Account) ses.getAttribute(Constants.ACCOUNT_KEY);
         allMessages = MedServiceLogic.loadMedServices();
 
+        List<Doctor> all;
+        all = DoctorService.loadDoctors();
+
+        ses.setAttribute(Constants.DOCTORS_KEY, all);
         ses.setAttribute(Constants.READ_MESSAGES_KEY, allMessages);
 
         filterChain.doFilter(servletRequest, servletResponse);
