@@ -15,10 +15,10 @@ public class DoctorDAO extends AbstractDAO{
     private static final String SQL_FIND_INCOME_MESSAGES_BY_ACCOUNT_ID =
             "SELECT  * FROM `doctor`";
 
-    private static final String SQL_REMOVE_MESSAGE_BY_ID = "DELETE FROM `medicalservice` WHERE `serviceId` = ?";
+    private static final String SQL_REMOVE_MESSAGE_BY_ID = "DELETE FROM `doctor` WHERE `doctorId` = ?";
 
     private static final String SQL_UPDATE_ISREAD_BY_MESSAGE_ID = "UPDATE `message` SET `isRead` = ? WHERE `messageId` = ?";
-    private static final String SQL_UPDATE_SERVICE_BY_ID = "UPDATE `medicalservice` SET `serviceName` = ?, `patient` = ?, `doctor` = ?, `price` = ?, `serviceDate` = ?, `serviceDescription` = ? WHERE `serviceId` = ?";
+    private static final String SQL_UPDATE_SERVICE_BY_ID = "UPDATE `doctor` SET `doctorName` = ?, `doctorSurname` = ?, `prof` = ? WHERE `doctorId` = ?";
 
     private static final String SERVICE_ID_COLUMN = "serviceId";
     private static final String SERVICE_NAME_COLUMN = "serviceName";
@@ -66,18 +66,15 @@ public class DoctorDAO extends AbstractDAO{
         }
     }
 
-    public void changeMedService(int id, String serviceName, String description, double price, int doctord, int patientId, String date) throws DAOException {
-        try (PreparedStatement statement = connection.prepareStatement(SQL_UPDATE_SERVICE_BY_ID)) {
-            statement.setString(1, serviceName);
-            statement.setInt(2, patientId);
-            statement.setInt(3, doctord);
-            statement.setDouble(4, price);
-            statement.setString(5, date);
-            statement.setString(6, description);
-            statement.setInt(7, id);
+    public boolean changeDoctor(String name, String surname, String prof) throws DAOException {
+        try (PreparedStatement statement = connection.prepareStatement(SQL_UPDATE_SERVICE_BY_ID, Statement.RETURN_GENERATED_KEYS)) {
+            statement.setString(1, name);
+            statement.setString(2, surname);
+            statement.setString(3, prof);
             statement.execute();
+            return true;
         } catch (SQLException e) {
-            throw new DAOException("Problems with database(updatePasswordByAccountId).", e);
+            throw new DAOException("Problems with addMedService to database.", e);
         }
     }
 

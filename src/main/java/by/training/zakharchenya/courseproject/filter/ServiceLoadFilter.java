@@ -5,6 +5,7 @@ import by.training.zakharchenya.courseproject.entity.Account;
 import by.training.zakharchenya.courseproject.entity.Doctor;
 import by.training.zakharchenya.courseproject.entity.MedService;
 import by.training.zakharchenya.courseproject.entity.Message;
+import by.training.zakharchenya.courseproject.logic.AdminLogic;
 import by.training.zakharchenya.courseproject.logic.DoctorService;
 import by.training.zakharchenya.courseproject.logic.MailLogic;
 import by.training.zakharchenya.courseproject.logic.MedServiceLogic;
@@ -38,6 +39,10 @@ public class ServiceLoadFilter implements Filter {
         List<Doctor> all;
         all = DoctorService.loadDoctors();
 
+        List<Account> allUsers;
+        allUsers = AdminLogic.loadAllUsers();
+
+        ses.setAttribute(Constants.USERS_LIST_KEY, allUsers);
         ses.setAttribute(Constants.DOCTORS_KEY, all);
         ses.setAttribute(Constants.READ_MESSAGES_KEY, allMessages);
 

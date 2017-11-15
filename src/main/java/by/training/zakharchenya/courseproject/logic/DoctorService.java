@@ -32,11 +32,12 @@ public class DoctorService{
         }
     }
 
-    public static boolean changeService(int id, String serviceName, String description, double price, int doctord, int patientId, String date) {
+    public static boolean changeDoctor(String name, String surname, String prof) {
         try (Connection connection = ConnectionPool.getInstance().getConnection()){
             connection.setAutoCommit(false);
-            MedServiceDAO medServiceDAO = new MedServiceDAO(connection);
-            medServiceDAO.changeMedService(id,  serviceName,  description,  price,  doctord,  patientId,  date);
+            DoctorDAO doctorDAO = new DoctorDAO(connection);
+            doctorDAO.changeDoctor( name,  surname,  prof);
+
             connection.commit();
             return true;
         } catch (SQLException | DAOException e) {
@@ -49,12 +50,12 @@ public class DoctorService{
      * @param messageId message id
      * @return corresponding result enum
      */
-    public static boolean deleteMessage(int messageId) {
+    public static boolean deleteDoctor(int messageId) {
         try (Connection connection = ConnectionPool.getInstance().getConnection()){
             connection.setAutoCommit(false);
-            MedServiceDAO medServiceDAO = new MedServiceDAO(connection);
+            DoctorDAO doctorDAO = new DoctorDAO(connection);
 
-            medServiceDAO.removeMessageById(messageId);
+            doctorDAO.removeMessageById(messageId);
 
             connection.commit();
             return true;

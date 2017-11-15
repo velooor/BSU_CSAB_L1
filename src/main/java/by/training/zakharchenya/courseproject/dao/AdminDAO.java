@@ -15,7 +15,7 @@ public class AdminDAO extends AbstractDAO {
     private enum Status{
         ACTIVE, BANNED
     }
-    private static final String SQL_FIND_ALL_USERS = "SELECT `accountId`, `name`, `surname`, `login`, `email`, `avatar`, `birthDate`, `admin`, `status` FROM `account`";
+    private static final String SQL_FIND_ALL_USERS = "SELECT `accountId`, `name`, `surname`, `login`, `email`, `avatar`, `birthDate` FROM `account`";
 
     private static final String SQL_ADMIN_PARAMS = "SELECT `minNumOfPoints`, `minRate` FROM `adminstration`";
     private static final String SQL_UPDATE_USER_STATUS_BY_USER_ID = "UPDATE `account` SET `status` = ? WHERE `accountId` = ?";
@@ -82,8 +82,6 @@ public class AdminDAO extends AbstractDAO {
                     acc.setAvatar(avatar.getBytes(1, (int)avatar.length()));
                 }
                 acc.setBirthDate(resultSet.getDate(BIRTHDATE_COLUMN));
-                acc.setAdmin(resultSet.getBoolean(ADMIN_COLUMN));
-                acc.setStatus(Account.StatusEnum.valueOf(resultSet.getString(STATUS_COLUMN).toUpperCase()));
 
                 accounts.add(acc);
             }

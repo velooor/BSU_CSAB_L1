@@ -56,18 +56,23 @@
                                <input type="text" id="serviceName" name="serviceName" class="form-control"  value="" placeholder="<fmt:message key="label.service.name"/>" minlength="2" maxlength="30">
                            </div>
 
-                           <div class="form-group-lg">
-                               <input type="text" name="patientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>
-                           </div>
+                           <%--<div class="form-group-lg">--%>
+                               <%--<input type="text" name="patientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>--%>
+                           <%--</div>--%>
+                           <select name="patientId" class="form-control">
+                               <c:forEach var="item" items="${allUsers}">
+                                   <option value="${item.accountId}">${item.name} ${item.surname}</option>
+                               </c:forEach>
+                           </select>
                            <div class="form-group-lg">
                                <input type="date" name="serviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2017-01-01" required>
                            </div>
                            <%--<div class="form-group-lg">
                                <input type="text" name="doctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
                            </div>--%>
-                           <select name="doctorId">
+                           <select name="doctorId" class="form-control">
                                <c:forEach var="item" items="${doctors}">
-                                   <option value="${item.doctorId}">${item.doctorName} ${item.doctorSurname} ${item.prof}</option>
+                                   <option value="${item.doctorId}">${item.doctorName} ${item.doctorSurname} (${item.prof})</option>
                                </c:forEach>
                            </select>
                            <div class="form-group-lg">
@@ -110,12 +115,12 @@
                        <button type="button" onclick="window.location.href='${context}/main?command=deleteMessage&messageid=${service.serviceId}'" class="btn btn-default pull-right"><fmt:message key="label.delete.service"/></button>
 
                         <br>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".change-message-modal-lg"><fmt:message key="label.change.service"/></button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".change-message-modal-lg${service.serviceId}"><fmt:message key="label.change.service"/></button>
 
                     </div>
 
 
-                    <div class="modal fade change-message-modal-lg" tabindex="-1" role="dialog" aria-labelledby="NewMessage">
+                    <div class="modal fade change-message-modal-lg${service.serviceId}" tabindex="-1" role="dialog" aria-labelledby="NewMessage">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -130,15 +135,25 @@
                                             <input type="text" id="CHserviceName" name="CHserviceName" class="form-control"  value="" placeholder="<fmt:message key="label.service.name"/>" minlength="2" maxlength="30">
                                         </div>
 
-                                        <div class="form-group-lg">
-                                            <input type="text" name="CHpatientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>
-                                        </div>
+                                        <%--<div class="form-group-lg">--%>
+                                            <%--<input type="text" name="CHpatientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>--%>
+                                        <%--</div>--%>
+                                        <select name="CHpatientId" class="form-control">
+                                            <c:forEach var="item" items="${allUsers}">
+                                                <option value="${item.accountId}">${item.name} ${item.surname}</option>
+                                            </c:forEach>
+                                        </select>
                                         <div class="form-group-lg">
                                             <input type="date" name="CHserviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2017-01-01" required>
                                         </div>
-                                        <div class="form-group-lg">
-                                            <input type="text" name="CHdoctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
-                                        </div>
+                                        <%--<div class="form-group-lg">--%>
+                                            <%--<input type="text" name="CHdoctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>--%>
+                                        <%--</div>--%>
+                                        <select name="CHdoctorId" class="form-control">
+                                            <c:forEach var="item" items="${doctors}">
+                                                <option value="${item.doctorId}">${item.doctorName} ${item.doctorSurname} (${item.prof})</option>
+                                            </c:forEach>
+                                        </select>
                                         <div class="form-group-lg">
                                             <input type="number" name="CHprice" class="form-control"  placeholder="<fmt:message key="label.service.price"/>*" required/>
                                         </div>

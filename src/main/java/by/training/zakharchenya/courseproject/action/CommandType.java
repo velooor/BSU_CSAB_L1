@@ -33,5 +33,7 @@ public class CommandType {
     public static final String CHECK_MULTI_GAME = "checkForChanges";
     public static final String CHANGE_SERVICE = "CHmessage";
     public static final String ADD_DOCTOR = "adddoctor";
+    public static final String DELETE_DOCTOR = "deleteDoctor";
+    public static final String CHANGE_DOCTOR = "changedoctor";
 
 }

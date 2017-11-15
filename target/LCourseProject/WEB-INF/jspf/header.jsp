@@ -46,6 +46,7 @@
                     <li><a class="head" href="${context}/jsp/user/profile_settings.jsp"><img class="img-circle" height="28" width="28" src="${context}/main?command=loadImage&id=${account.accountId}&src=account" alt="Avatar"></a></li>
                     <%--<li><a id="MoneyAmount" class="head" href="${context}/jsp/user/profile_settings.jsp">${ttll:nullCheck(creditBalance.moneyAmount)} $</a></li>--%>
                     <li><a class="head" href="${context}/jsp/user/messages.jsp"><fmt:message key="label.med.services"/></a></li>
+                    <li><a class="head" href="${context}/jsp/user/doctors.jsp"><fmt:message key="label.doctors"/></a></li>
                         <li><a class="head" href="/main?command=logout"><fmt:message key="label.sign.out"/></a></li>
                 </ul>
                 <%--<ttll:admin role="${visitor.role}">

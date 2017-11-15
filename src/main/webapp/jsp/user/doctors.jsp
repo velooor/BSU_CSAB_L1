@@ -60,12 +60,14 @@
                             <input type="text" id="doctorSurname" name="doctorSurname" class="form-control"  value="" placeholder="<fmt:message key="label.second.name"/>" minlength="2" maxlength="30">
                         </div>
 
-                        <select name="profession">
-                            <option value="dentist">Dentist</option>
-                            <option value="therapist">Therapist</option>
-                            <option value="surgeon">Surgeon</option>
-                            <option value="neurologist">Neurologist</option>
-                        </select>
+                        <div class="form-group">
+                            <select name="profession" class="form-control">
+                                <option value="dentist">Dentist</option>
+                                <option value="therapist">Therapist</option>
+                                <option value="surgeon">Surgeon</option>
+                                <option value="neurologist">Neurologist</option>
+                            </select>
+                        </div>
 
                         <input type="hidden" name="command" value="adddoctor">
 
@@ -86,7 +88,7 @@
         <div class="page-header text-center"></div>
         <c:forEach var="doctor" items="${doctors}">
             <div class="panel panel-default col-lg-12">
-                <h4 class="panel-heading col-lg-5"><fmt:message key="label.id"/>: ${doctor.doctorId}</h4>
+                <h4 class="panel-heading col-lg-5"><fmt:message key="label.doctor.id"/>: ${doctor.doctorId}</h4>
                 <h4 class="panel-heading col-lg-5"><fmt:message key="label.first.name"/>: ${doctor.doctorName}</h4>
                 <div class="panel-body">
                     <h6 class="panel-heading col-lg-5"><fmt:message key="label.second.name"/>: ${doctor.doctorSurname}</h6>
@@ -96,12 +98,12 @@
                         <button type="button" onclick="window.location.href='${context}/main?command=deleteDoctor&doctorId=${doctor.doctorId}'" class="btn btn-default pull-right"><fmt:message key="label.delete"/></button>
 
                         <br>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".change-message-modal-lg"><fmt:message key="label.change.service"/></button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".change-doctor-modal-lg${doctor.doctorId}"><fmt:message key="label.change.doctor"/></button>
 
                     </div>
 
 
-                    <div class="modal fade change-message-modal-lg" tabindex="-1" role="dialog" aria-labelledby="NewMessage">
+                    <div class="modal fade change-doctor-modal-lg${doctor.doctorId}" tabindex="-1" role="dialog" aria-labelledby="NewMessage">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -109,41 +111,30 @@
                                     <h3 class="modal-title"><fmt:message key="label.change.service"/></h3>
                                 </div>
                                 <div class="modal-body">
-                                    <form id="changeMessageForm" name="changeMessageForm" action="/main" method="post" onsubmit="return validateForm ( )">
+                                    <form id="changeDoctorForm" name="changeDoctorForm" action="/main" method="post" onsubmit="return validateForm ( )">
 
 
                                         <div class="form-group">
-                                            <input type="text" id="CHserviceName" name="CHserviceName" class="form-control"  value="" placeholder="<fmt:message key="label.service.name"/>" minlength="2" maxlength="30">
+                                            <input type="text" id="CHdoctorName" name="CHdoctorName" class="form-control"  value="" placeholder="<fmt:message key="label.first.name"/>" minlength="2" maxlength="30">
                                         </div>
 
-                                        <div class="form-group-lg">
-                                            <input type="text" name="CHpatientId" class="form-control" placeholder="<fmt:message key="label.patient.id"/>*"required/>
+                                        <div class="form-group">
+                                            <input type="text" id="CHdoctorSurname" name="CHdoctorSurname" class="form-control"  value="" placeholder="<fmt:message key="label.second.name"/>" minlength="2" maxlength="30">
                                         </div>
-                                        <div class="form-group-lg">
-                                            <input type="date" name="CHserviceDate" class="form-control input" placeholder="<fmt:message key="label.service.date"/>*"  min="1850-01-01" max="2017-01-01" required>
-                                        </div>
-                                        <div class="form-group-lg">
-                                            <input type="text" name="CHdoctorId" class="form-control" placeholder="<fmt:message key="label.doctor.id"/>*" required/>
-                                        </div>
-                                        <div class="form-group-lg">
-                                            <input type="number" name="CHprice" class="form-control"  placeholder="<fmt:message key="label.service.price"/>*" required/>
-                                        </div>
-                                        <div class="form-group-lg">
-                                                <%--<input type="text" name="CHdescription" class="form-control" placeholder="<fmt:message key="label.service.descrption"/>*" required/>--%>
-                                            <textarea id="CHdescription" name="CHdescription" class="form-control" rows="5" placeholder="<fmt:message key="label.service.descrption"/>" minlength="1" maxlength="5000" required></textarea>
 
-                                        </div>
-                                        <input type="hidden" name="CHserviceId" value="${service.serviceId}">
-                                        <input type="hidden" name="command" value="CHmessage">
-                                        <p class="message">
-                                                ${NewMessageMessage}
-                                        </p>
-                                        <hr>
+                                        <select name="CHprofession" class="form-control">
+                                            <option value="dentist">Dentist</option>
+                                            <option value="therapist">Therapist</option>
+                                            <option value="surgeon">Surgeon</option>
+                                            <option value="neurologist">Neurologist</option>
+                                        </select>
+
+                                        <input type="hidden" name="command" value="changedoctor">
                                     </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal"><fmt:message key="label.close"/></button>
-                                    <button type="submit" form="changeMessageForm" class="btn btn-primary"><fmt:message key="label.submit"/></button>
+                                    <button type="submit" form="changeDoctorForm" class="btn btn-primary"><fmt:message key="label.submit"/></button>
                                 </div>
                             </div>
 

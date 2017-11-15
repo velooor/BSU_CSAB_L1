@@ -7,144 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c701756e-247c-47a1-bd30-9153318a8536" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Doctor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/DoctorLoadFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/GameDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MoneyDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/game/MultiGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/game/SingleGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/GameLoadFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/SettingsFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/GameLogic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/GameDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/MoneyDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/game/MultiGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/entity/game/SingleGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/GameLoadFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/SettingsFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/GameLogic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/admin/ChangeAdminParamCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/admin/UpdateUserStatusCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/change/TopUpAccountCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/CheckMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/CreateMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/DeleteGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/EndOfSingleRound.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/MultiGameMoveCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/PlayCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/ReturnToMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/game/StartMultiGameCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/GameDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/MoneyDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/game/MultiGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/entity/game/SingleGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/GameLoadFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/SettingsFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/GameLogic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/MoneyInfoLogic.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/ChangeServiceCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/DeleteMessageCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/NewServiceCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/NewServiceCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/UpdateMessageCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject.war" afterPath="$PROJECT_DIR$/target/LCourseProject.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandType.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$ImageSource.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$ImageSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/servlet/Constants.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/servlet/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandType.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$ImageSource.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand$ImageSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/servlet/Constants.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/servlet/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/Command.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/Command.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/class-use/Command.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/class-use/Command.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/DeleteMessageCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/NewMessageCommand.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/NewMessageCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/UpdateMessageCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/class-use/DeleteMessageCommand.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/class-use/DeleteMessageCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/class-use/NewMessageCommand.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/class-use/NewMessageCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/class-use/UpdateMessageCommand.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/class-use/UpdateMessageCommand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-frame.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-summary.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-tree.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-use.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/command/mail/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/package-use.html" afterPath="$PROJECT_DIR$/doc/by/training/zakharchenya/courseproject/action/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" afterPath="$PROJECT_DIR$/doc/index-files/index-18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-frame.html" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-summary.html" afterPath="$PROJECT_DIR$/doc/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-list" afterPath="$PROJECT_DIR$/doc/package-list" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MailDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MailDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/servlet/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/servlet/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/config.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_en_US.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_ru_RU.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/header.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/user/doctors.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/user/doctors.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/user/messages.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/user/messages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/config.properties" afterPath="$PROJECT_DIR$/target/classes/properties/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/target/classes/properties/pagecontent_en_US.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/target/classes/properties/pagecontent_ru_RU.properties" />
     </list>
@@ -182,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/servlet/Constants.java">
+      <file leaf-file-name="AddDoctorCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+            <state relative-caret-position="334">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="34" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -195,18 +85,18 @@
       <file leaf-file-name="doctors.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="92" column="90" lean-forward="false" selection-start-line="92" selection-start-column="90" selection-end-line="92" selection-end-column="90" />
+            <state relative-caret-position="306">
+              <caret line="105" column="83" lean-forward="false" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddDoctorCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java">
+      <file leaf-file-name="DeleteDoctorCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            <state relative-caret-position="158">
+              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,50 +104,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorLoadFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/DoctorLoadFilter.java">
+      <file leaf-file-name="AdminLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="53" />
+            <state relative-caret-position="200">
+              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1510734486450" expanded="true" signature="523:616" ph="SELECT `acco... account" />
+                <marker date="1510734486450" expanded="true" signature="672:727" ph="SELECT `minN... adminstration" />
+                <marker date="1510734486450" expanded="true" signature="799:854" ph="UPDATE `acco... " />
+                <marker date="1510734486450" expanded="true" signature="909:949" ph="UPDATE `admi... " />
+                <marker date="1510734486450" expanded="true" signature="1005:1052" ph="UPDATE `admi... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Doctor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Doctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
-              <folding>
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceLoadFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServiceLoadFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="192">
+              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeDoctorCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -266,10 +153,25 @@
       <file leaf-file-name="DoctorService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="90" column="17" lean-forward="false" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            <state relative-caret-position="207">
+              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoctorDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1510732883189" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
+                <marker date="1510732883189" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
+                <marker date="1510732883189" expanded="true" signature="684:725" ph="DELETE FROM " />
+                <marker date="1510732883189" expanded="true" signature="796:851" ph="UPDATE `mess... " />
+                <marker date="1510732883189" expanded="true" signature="914:1004" ph="UPDATE `medi... " />
               </folding>
             </state>
           </provider>
@@ -278,35 +180,8 @@
       <file leaf-file-name="messages.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="68" column="72" lean-forward="true" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoctorDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-347">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1510689577519" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
-                <marker date="1510689577519" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
-                <marker date="1510689577519" expanded="true" signature="684:734" ph="DELETE FROM " />
-                <marker date="1510689577519" expanded="true" signature="805:860" ph="UPDATE `mess... " />
-                <marker date="1510689577519" expanded="true" signature="923:1077" ph="UPDATE `medi... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedServiceDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="124" column="0" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="124" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="122" column="86" lean-forward="false" selection-start-line="122" selection-start-column="86" selection-end-line="122" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -335,9 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/SettingsFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/ChangeAccountLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/GameLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/LoginLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MailLogic.java" />
@@ -366,26 +238,29 @@
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/guest/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/mail/ChangeServiceCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/MedServiceLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/LoadImageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Doctor.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/DoctorLoadFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/servlet/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java" />
       </list>
     </option>
   </component>
@@ -688,10 +563,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1272,7 +1147,9 @@
       <workItem from="1509483568000" duration="710000" />
       <workItem from="1510065760111" duration="11594000" />
       <workItem from="1510128610209" duration="8033000" />
-      <workItem from="1510686536626" duration="3820000" />
+      <workItem from="1510686536626" duration="3963000" />
+      <workItem from="1510731836285" duration="1523000" />
+      <workItem from="1510733743213" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="pre-final">
       <created>1510088330367</created>
@@ -1285,7 +1162,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435126000" />
+    <option name="totallyTimeSpent" value="438178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -1301,20 +1178,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.3524962" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689548" sideWeight="0.6475038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.900156" sideWeight="0.6475038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28550512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13836017" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34789392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1353,75 +1230,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/MedService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/entity/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/exception/DAOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/exception/LogicException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/AccountListFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/AdminFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/CurrentPageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/EncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,15 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,7 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1479,7 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1512,7 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1528,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1552,7 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,7 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,9 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1580,7 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,49 +1379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1642,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="47" column="1" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="47" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1656,19 +1403,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/MedServiceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="124" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1938">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="124" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/servlet/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,90 +1421,203 @@
         <state relative-caret-position="238">
           <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
           <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1009#1010#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1117#1118#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1215#1216#0" expanded="false" />
+            <element signature="e#1247#1248#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/servlet/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="90" column="17" lean-forward="false" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1510689577519" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
-            <marker date="1510689577519" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
-            <marker date="1510689577519" expanded="true" signature="684:734" ph="DELETE FROM " />
-            <marker date="1510689577519" expanded="true" signature="805:860" ph="UPDATE `mess... " />
-            <marker date="1510689577519" expanded="true" signature="923:1077" ph="UPDATE `medi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="92" column="90" lean-forward="false" selection-start-line="92" selection-start-column="90" selection-end-line="92" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="68" column="72" lean-forward="true" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/DoctorLoadFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="222">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/DeleteMessageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/UpdateMessageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/medservice/ChangeServiceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="110" lean-forward="false" selection-start-line="45" selection-start-column="110" selection-end-line="45" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/AccountListFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="36" column="61" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="36" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <marker date="1510734486450" expanded="true" signature="523:616" ph="SELECT `acco... account" />
+            <marker date="1510734486450" expanded="true" signature="672:727" ph="SELECT `minN... adminstration" />
+            <marker date="1510734486450" expanded="true" signature="799:854" ph="UPDATE `acco... " />
+            <marker date="1510734486450" expanded="true" signature="909:949" ph="UPDATE `admi... " />
+            <marker date="1510734486450" expanded="true" signature="1005:1052" ph="UPDATE `admi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="122" column="86" lean-forward="false" selection-start-line="122" selection-start-column="86" selection-end-line="122" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="105" column="83" lean-forward="false" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="207">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510732883189" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
+            <marker date="1510732883189" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
+            <marker date="1510732883189" expanded="true" signature="684:725" ph="DELETE FROM " />
+            <marker date="1510732883189" expanded="true" signature="796:851" ph="UPDATE `mess... " />
+            <marker date="1510732883189" expanded="true" signature="914:1004" ph="UPDATE `medi... " />
+          </folding>
         </state>
       </provider>
     </entry>

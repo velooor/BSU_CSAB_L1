@@ -3,6 +3,8 @@ package by.training.zakharchenya.courseproject.action;
 import by.training.zakharchenya.courseproject.action.command.*;
 import by.training.zakharchenya.courseproject.action.command.change.*;
 import by.training.zakharchenya.courseproject.action.command.doctor.AddDoctorCommand;
+import by.training.zakharchenya.courseproject.action.command.doctor.ChangeDoctorCommand;
+import by.training.zakharchenya.courseproject.action.command.doctor.DeleteDoctorCommand;
 import by.training.zakharchenya.courseproject.action.command.medservice.ChangeServiceCommand;
 import by.training.zakharchenya.courseproject.action.command.medservice.DeleteMessageCommand;
 import by.training.zakharchenya.courseproject.action.command.medservice.NewServiceCommand;
@@ -56,6 +58,10 @@ public class CommandFactory {
                 return new ChangeServiceCommand();
             case ADD_DOCTOR:
                 return new AddDoctorCommand();
+            case DELETE_DOCTOR:
+                return new DeleteDoctorCommand();
+            case CHANGE_DOCTOR:
+                return new ChangeDoctorCommand();
         }
         return null;
     }
