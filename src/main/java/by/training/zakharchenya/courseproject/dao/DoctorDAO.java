@@ -91,19 +91,4 @@ public class DoctorDAO extends AbstractDAO{
         }
     }
 
-    /**Updates message status by id in database.
-     * @param isRead account id of addressee
-     * @param id game id
-     * @throws DAOException signals, that statement was not executed successfully
-     */
-    public void updateMessageById(boolean isRead, int id) throws DAOException {
-        try (PreparedStatement statement = connection.prepareStatement(SQL_UPDATE_ISREAD_BY_MESSAGE_ID)) {
-            statement.setBoolean(1, isRead);
-            statement.setInt(2, id);
-            statement.execute();
-        } catch (SQLException e) {
-            throw new DAOException("Problems with database.", e);
-        }
-    }
-
 }

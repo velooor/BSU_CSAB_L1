@@ -7,36 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c701756e-247c-47a1-bd30-9153318a8536" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject.war" afterPath="$PROJECT_DIR$/target/LCourseProject.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandType.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/action/CommandType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandType.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/action/CommandType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/AccountDAO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/dao/DoctorDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" afterPath="$PROJECT_DIR$/target/classes/by/training/zakharchenya/courseproject/logic/DoctorService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" afterPath="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_en_US.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/classes/properties/pagecontent_ru_RU.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/header.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/WEB-INF/jspf/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/user/doctors.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/user/doctors.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LCourseProject/jsp/user/messages.jsp" afterPath="$PROJECT_DIR$/target/LCourseProject/jsp/user/messages.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/pagecontent_en_US.properties" afterPath="$PROJECT_DIR$/target/classes/properties/pagecontent_en_US.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/pagecontent_ru_RU.properties" afterPath="$PROJECT_DIR$/target/classes/properties/pagecontent_ru_RU.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +53,7 @@
       <file leaf-file-name="AddDoctorCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="442">
               <caret line="34" column="1" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="34" selection-end-column="1" />
               <folding />
             </state>
@@ -85,7 +63,7 @@
       <file leaf-file-name="doctors.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="1785">
               <caret line="105" column="83" lean-forward="false" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
               <folding />
             </state>
@@ -95,7 +73,7 @@
       <file leaf-file-name="DeleteDoctorCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="289">
               <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,46 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding>
-                <marker date="1510734486450" expanded="true" signature="523:616" ph="SELECT `acco... account" />
-                <marker date="1510734486450" expanded="true" signature="672:727" ph="SELECT `minN... adminstration" />
-                <marker date="1510734486450" expanded="true" signature="799:854" ph="UPDATE `acco... " />
-                <marker date="1510734486450" expanded="true" signature="909:949" ph="UPDATE `admi... " />
-                <marker date="1510734486450" expanded="true" signature="1005:1052" ph="UPDATE `admi... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceLoadFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChangeDoctorCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="357">
               <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding />
             </state>
@@ -153,25 +95,68 @@
       <file leaf-file-name="DoctorService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="748">
+              <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoctorDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+            <state relative-caret-position="1309">
+              <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1510732883189" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
-                <marker date="1510732883189" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
-                <marker date="1510732883189" expanded="true" signature="684:725" ph="DELETE FROM " />
-                <marker date="1510732883189" expanded="true" signature="796:851" ph="UPDATE `mess... " />
-                <marker date="1510732883189" expanded="true" signature="914:1004" ph="UPDATE `medi... " />
+                <marker date="1510755074711" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
+                <marker date="1510755074711" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
+                <marker date="1510755074711" expanded="true" signature="684:725" ph="DELETE FROM " />
+                <marker date="1510755074711" expanded="true" signature="796:851" ph="UPDATE `mess... " />
+                <marker date="1510755074711" expanded="true" signature="914:1004" ph="UPDATE `medi... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingUpLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/SingUpLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+              <folding>
+                <marker date="1510756268884" expanded="true" signature="501:635" ph="INSERT INTO `account`... " />
+                <marker date="1510756268884" expanded="true" signature="694:780" ph="INSERT INTO `creditcardinfo`... " />
+                <marker date="1510756268884" expanded="true" signature="855:915" ph="SELECT 1 FRO... account" />
+                <marker date="1510756268884" expanded="true" signature="981:1022" ph="SELECT 1 FRO... account" />
+                <marker date="1510756268884" expanded="true" signature="1087:1199" ph="SELECT `acco... account" />
+                <marker date="1510756268884" expanded="true" signature="1269:1324" ph="UPDATE `acco... " />
+                <marker date="1510756268884" expanded="true" signature="1377:1512" ph="SELECT `acco... account" />
+                <marker date="1510756268884" expanded="true" signature="1574:1710" ph="SELECT `acco... account" />
+                <marker date="1510756268884" expanded="true" signature="1780:1833" ph="UPDATE `acco... " />
+                <marker date="1510756268884" expanded="true" signature="1904:1960" ph="UPDATE `acco... " />
+                <marker date="1510756268884" expanded="true" signature="2023:2088" ph="SELECT 1 FRO... account" />
+                <marker date="1510756268884" expanded="true" signature="2160:2217" ph="UPDATE `acco... " />
               </folding>
             </state>
           </provider>
@@ -180,7 +165,7 @@
       <file leaf-file-name="messages.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="2074">
               <caret line="122" column="86" lean-forward="false" selection-start-line="122" selection-start-column="86" selection-end-line="122" selection-end-column="86" />
               <folding />
             </state>
@@ -223,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/game.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/multiGame.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/waitForGame.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignInCommand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
@@ -251,7 +235,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandType.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jspf/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties" />
@@ -261,6 +244,8 @@
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java" />
       </list>
     </option>
   </component>
@@ -308,6 +293,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,6 +374,17 @@
               <item name="action" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
               <item name="medservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSU_CSAB_L1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BSU_CSAB_L1" type="b2602c69:ProjectViewProjectNode" />
@@ -563,10 +562,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1149,7 +1145,9 @@
       <workItem from="1510128610209" duration="8033000" />
       <workItem from="1510686536626" duration="3963000" />
       <workItem from="1510731836285" duration="1523000" />
-      <workItem from="1510733743213" duration="1386000" />
+      <workItem from="1510733743213" duration="1763000" />
+      <workItem from="1510754731553" duration="2692000" />
+      <workItem from="1512564777275" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="pre-final">
       <created>1510088330367</created>
@@ -1162,7 +1160,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438178000" />
+    <option name="totallyTimeSpent" value="444042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -1178,20 +1176,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.3524962" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689548" sideWeight="0.6475038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4071763" sideWeight="0.6475038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17569546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13836017" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34789392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34789392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1230,14 +1228,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/GameLoadFilter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/UserFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1272,13 +1262,6 @@
         <state relative-caret-position="153">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/SingUpLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1497,25 +1480,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_en_US.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/pagecontent_ru_RU.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
           <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/AccountListFilter.java">
@@ -1528,15 +1509,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/filter/ServiceLoadFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="408">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/AdminLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="748">
           <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
           <folding />
         </state>
@@ -1544,8 +1525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AdminDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="1071">
+          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <marker date="1510734486450" expanded="true" signature="523:616" ph="SELECT `acco... account" />
             <marker date="1510734486450" expanded="true" signature="672:727" ph="SELECT `minN... adminstration" />
@@ -1558,7 +1539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/messages.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="2074">
           <caret line="122" column="86" lean-forward="false" selection-start-line="122" selection-start-column="86" selection-end-line="122" selection-end-column="86" />
           <folding />
         </state>
@@ -1566,7 +1547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/doctors.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="1785">
           <caret line="105" column="83" lean-forward="false" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
           <folding />
         </state>
@@ -1574,7 +1555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/AddDoctorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="442">
           <caret line="34" column="1" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
@@ -1582,7 +1563,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/ChangeDoctorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="357">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
         </state>
@@ -1590,7 +1571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/doctor/DeleteDoctorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="289">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1600,23 +1581,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/DoctorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="748">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/DoctorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        <state relative-caret-position="1309">
+          <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1510732883189" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
-            <marker date="1510732883189" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
-            <marker date="1510732883189" expanded="true" signature="684:725" ph="DELETE FROM " />
-            <marker date="1510732883189" expanded="true" signature="796:851" ph="UPDATE `mess... " />
-            <marker date="1510732883189" expanded="true" signature="914:1004" ph="UPDATE `medi... " />
+            <marker date="1510755074711" expanded="true" signature="414:507" ph="INSERT INTO `medicalservice`... " />
+            <marker date="1510755074711" expanded="true" signature="597:620" ph="SELECT * FRO... medicalservice" />
+            <marker date="1510755074711" expanded="true" signature="684:725" ph="DELETE FROM " />
+            <marker date="1510755074711" expanded="true" signature="796:851" ph="UPDATE `mess... " />
+            <marker date="1510755074711" expanded="true" signature="914:1004" ph="UPDATE `medi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/action/command/sign/SignUpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/logic/SingUpLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/training/zakharchenya/courseproject/dao/AccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <marker date="1510756268884" expanded="true" signature="501:635" ph="INSERT INTO `account`... " />
+            <marker date="1510756268884" expanded="true" signature="694:780" ph="INSERT INTO `creditcardinfo`... " />
+            <marker date="1510756268884" expanded="true" signature="855:915" ph="SELECT 1 FRO... account" />
+            <marker date="1510756268884" expanded="true" signature="981:1022" ph="SELECT 1 FRO... account" />
+            <marker date="1510756268884" expanded="true" signature="1087:1199" ph="SELECT `acco... account" />
+            <marker date="1510756268884" expanded="true" signature="1269:1324" ph="UPDATE `acco... " />
+            <marker date="1510756268884" expanded="true" signature="1377:1512" ph="SELECT `acco... account" />
+            <marker date="1510756268884" expanded="true" signature="1574:1710" ph="SELECT `acco... account" />
+            <marker date="1510756268884" expanded="true" signature="1780:1833" ph="UPDATE `acco... " />
+            <marker date="1510756268884" expanded="true" signature="1904:1960" ph="UPDATE `acco... " />
+            <marker date="1510756268884" expanded="true" signature="2023:2088" ph="SELECT 1 FRO... account" />
+            <marker date="1510756268884" expanded="true" signature="2160:2217" ph="UPDATE `acco... " />
           </folding>
         </state>
       </provider>
