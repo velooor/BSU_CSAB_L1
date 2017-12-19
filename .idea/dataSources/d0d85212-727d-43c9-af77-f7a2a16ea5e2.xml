@@ -11,228 +11,275 @@
     <schema id="5" parent="1" name="performance_schema"/>
     <schema id="6" parent="1" name="sys"/>
     <table id="7" parent="2" name="account"/>
-    <table id="8" parent="2" name="dictionary"/>
-    <table id="9" parent="2" name="dictionaryfield"/>
-    <table id="10" parent="2" name="doctor"/>
-    <table id="11" parent="2" name="medicalservice"/>
-    <column id="12" parent="7" name="accountId">
+    <table id="8" parent="2" name="doctor"/>
+    <table id="9" parent="2" name="hospital"/>
+    <table id="10" parent="2" name="medicalservice"/>
+    <table id="11" parent="2" name="table"/>
+    <table id="12" parent="2" name="tablefield"/>
+    <column id="13" parent="7" name="accountId">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="13" parent="7" name="login">
+    <column id="14" parent="7" name="login">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="14" parent="7" name="email">
+    <column id="15" parent="7" name="email">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="15" parent="7" name="password">
+    <column id="16" parent="7" name="password">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="16" parent="7" name="name">
+    <column id="17" parent="7" name="name">
       <Position>5</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="17" parent="7" name="surname">
+    <column id="18" parent="7" name="surname">
       <Position>6</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="18" parent="7" name="admin">
+    <column id="19" parent="7" name="admin">
       <Position>7</Position>
       <DataType>tinyint(1)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="19" parent="7" name="birthDate">
+    <column id="20" parent="7" name="birthDate">
       <Position>8</Position>
       <DataType>date|0</DataType>
     </column>
-    <column id="20" parent="7" name="course">
+    <column id="21" parent="7" name="course">
       <Position>9</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="21" parent="7" name="year">
+    <column id="22" parent="7" name="year">
       <Position>10</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <column id="22" parent="7" name="avatar">
+    <column id="23" parent="7" name="avatar">
       <Position>11</Position>
       <DataType>longblob|0</DataType>
     </column>
-    <index id="23" parent="7" name="accountId_UNIQUE">
+    <index id="24" parent="7" name="accountId_UNIQUE">
       <ColNames>accountId</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="24" parent="7" name="PRIMARY">
+    <key id="25" parent="7" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>accountId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="25" parent="7" name="accountId_UNIQUE">
+    <key id="26" parent="7" name="accountId_UNIQUE">
       <ColNames>accountId</ColNames>
       <UnderlyingIndexName>accountId_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="26" parent="8" name="dictionaryId">
+    <column id="27" parent="8" name="doctorId">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="27" parent="8" name="dictionaryName">
+    <column id="28" parent="8" name="doctorName">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <index id="28" parent="8" name="dictionaryId_UNIQUE">
-      <ColNames>dictionaryId</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="29" parent="8" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>dictionaryId</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <key id="30" parent="8" name="dictionaryId_UNIQUE">
-      <ColNames>dictionaryId</ColNames>
-      <UnderlyingIndexName>dictionaryId_UNIQUE</UnderlyingIndexName>
-    </key>
-    <column id="31" parent="9" name="fieldId">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="32" parent="9" name="fieldName">
-      <Position>2</Position>
-      <DataType>varchar(45)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="33" parent="9" name="fieldType">
+    <column id="29" parent="8" name="doctorSurname">
       <Position>3</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="34" parent="9" name="fieldInput">
+    <column id="30" parent="8" name="prof">
       <Position>4</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <column id="35" parent="9" name="fieldOutput">
-      <Position>5</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <index id="36" parent="9" name="dictionaryFieldId_UNIQUE">
-      <ColNames>fieldId</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="37" parent="9" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>fieldId</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <key id="38" parent="9" name="dictionaryFieldId_UNIQUE">
-      <ColNames>fieldId</ColNames>
-      <UnderlyingIndexName>dictionaryFieldId_UNIQUE</UnderlyingIndexName>
-    </key>
-    <column id="39" parent="10" name="doctorId">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="40" parent="10" name="doctorName">
-      <Position>2</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="41" parent="10" name="doctorSurname">
-      <Position>3</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <column id="42" parent="10" name="prof">
-      <Position>4</Position>
-      <DataType>varchar(45)|0</DataType>
-    </column>
-    <index id="43" parent="10" name="doctorId_UNIQUE">
+    <index id="31" parent="8" name="doctorId_UNIQUE">
       <ColNames>doctorId</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="44" parent="10" name="PRIMARY">
+    <key id="32" parent="8" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>doctorId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="45" parent="10" name="doctorId_UNIQUE">
+    <key id="33" parent="8" name="doctorId_UNIQUE">
       <ColNames>doctorId</ColNames>
       <UnderlyingIndexName>doctorId_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="46" parent="11" name="serviceId">
+    <column id="34" parent="9" name="idHospital">
+      <Position>1</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="9" name="hospitalName">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="36" parent="9" name="hospitalAddress">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="37" parent="9" name="hospitalRate">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <key id="38" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idHospital</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="39" parent="10" name="serviceId">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="47" parent="11" name="serviceName">
+    <column id="40" parent="10" name="serviceName">
       <Position>2</Position>
       <DataType>varchar(45)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="48" parent="11" name="patient">
+    <column id="41" parent="10" name="patient">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="49" parent="11" name="doctor">
+    <column id="42" parent="10" name="doctor">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="50" parent="11" name="price">
+    <column id="43" parent="10" name="price">
       <Position>5</Position>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="51" parent="11" name="serviceDate">
+    <column id="44" parent="10" name="serviceDate">
       <Position>6</Position>
       <DataType>date|0</DataType>
     </column>
-    <column id="52" parent="11" name="serviceDescription">
+    <column id="45" parent="10" name="serviceDescription">
       <Position>7</Position>
       <DataType>varchar(45)|0</DataType>
     </column>
-    <index id="53" parent="11" name="fk_MedicalService_account_idx">
+    <index id="46" parent="10" name="fk_MedicalService_account_idx">
       <ColNames>patient</ColNames>
     </index>
-    <index id="54" parent="11" name="serviceId_UNIQUE">
+    <index id="47" parent="10" name="serviceId_UNIQUE">
       <ColNames>serviceId</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="55" parent="11" name="fk_medicalService_doctor1_idx">
+    <index id="48" parent="10" name="fk_medicalService_doctor1_idx">
       <ColNames>doctor</ColNames>
     </index>
-    <key id="56" parent="11" name="PRIMARY">
+    <key id="49" parent="10" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>serviceId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="57" parent="11" name="serviceId_UNIQUE">
+    <key id="50" parent="10" name="serviceId_UNIQUE">
       <ColNames>serviceId</ColNames>
       <UnderlyingIndexName>serviceId_UNIQUE</UnderlyingIndexName>
     </key>
-    <foreign-key id="58" parent="11" name="fk_MedicalService_account">
+    <foreign-key id="51" parent="10" name="fk_MedicalService_account">
       <ColNames>patient</ColNames>
       <RefSchemaName>csab_l1</RefSchemaName>
       <RefTableName>account</RefTableName>
       <RefColNames>accountId</RefColNames>
     </foreign-key>
-    <foreign-key id="59" parent="11" name="fk_medicalService_doctor1">
+    <foreign-key id="52" parent="10" name="fk_medicalService_doctor1">
       <ColNames>doctor</ColNames>
       <RefSchemaName>csab_l1</RefSchemaName>
       <RefTableName>doctor</RefTableName>
       <RefColNames>doctorId</RefColNames>
+    </foreign-key>
+    <column id="53" parent="11" name="tableId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="54" parent="11" name="tableName">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="11" name="columsNumber">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="56" parent="11" name="dictionaryId_UNIQUE">
+      <ColNames>tableId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tableId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="58" parent="11" name="dictionaryId_UNIQUE">
+      <ColNames>tableId</ColNames>
+      <UnderlyingIndexName>dictionaryId_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="59" parent="12" name="fieldId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="60" parent="12" name="table">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="12" name="fieldName">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="12" name="fieldRealName">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="12" name="fieldType">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="64" parent="12" name="fieldInput">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="65" parent="12" name="fieldOutput">
+      <Position>7</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <index id="66" parent="12" name="dictionaryFieldId_UNIQUE">
+      <ColNames>fieldId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="67" parent="12" name="table_idx">
+      <ColNames>table</ColNames>
+    </index>
+    <key id="68" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>fieldId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="69" parent="12" name="dictionaryFieldId_UNIQUE">
+      <ColNames>fieldId</ColNames>
+      <UnderlyingIndexName>dictionaryFieldId_UNIQUE</UnderlyingIndexName>
+    </key>
+    <foreign-key id="70" parent="12" name="table">
+      <ColNames>table</ColNames>
+      <RefSchemaName>csab_l1</RefSchemaName>
+      <RefTableName>table</RefTableName>
+      <RefColNames>tableId</RefColNames>
     </foreign-key>
   </database-model>
 </dataSource>

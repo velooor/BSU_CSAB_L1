@@ -47,7 +47,8 @@
                     <%--<li><a id="MoneyAmount" class="head" href="${context}/jsp/user/profile_settings.jsp">${ttll:nullCheck(creditBalance.moneyAmount)} $</a></li>--%>
                     <li><a class="head" href="${context}/jsp/user/messages.jsp"><fmt:message key="label.med.services"/></a></li>
                     <li><a class="head" href="${context}/jsp/user/doctors.jsp"><fmt:message key="label.doctors"/></a></li>
-                        <li><a class="head" href="/main?command=logout"><fmt:message key="label.sign.out"/></a></li>
+                    <li><a class="head" href="${context}/jsp/user/someentity.jsp">${entityName}</a></li>
+                    <li><a class="head" href="/main?command=logout"><fmt:message key="label.sign.out"/></a></li>
                 </ul>
                 <%--<ttll:admin role="${visitor.role}">
                     <ul class="nav navbar-nav navbar-right">

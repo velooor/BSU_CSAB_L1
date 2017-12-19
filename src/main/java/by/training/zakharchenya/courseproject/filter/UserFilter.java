@@ -3,6 +3,7 @@ package by.training.zakharchenya.courseproject.filter;
 import by.training.zakharchenya.courseproject.entity.Account;
 import by.training.zakharchenya.courseproject.entity.Visitor;
 import by.training.zakharchenya.courseproject.logic.AdminLogic;
+import by.training.zakharchenya.courseproject.logic.SomeEntityLogic;
 import by.training.zakharchenya.courseproject.servlet.Constants;
 
 import javax.servlet.*;
@@ -31,8 +32,12 @@ public class UserFilter implements Filter {
             response.sendError(HttpServletResponse.SC_FORBIDDEN);
         } else {
             /*List<Integer> params = AdminLogic.loadParams();
+
             request.getSession().setAttribute(Constants.MIN_POINTS_KEY, params.get(0));
             request.getSession().setAttribute(Constants.MIN_RATE_KEY, params.get(1));*/
+            String name= SomeEntityLogic.getEntityName();
+            if(name!=null)       request.getSession().setAttribute("entityName",name);
+            else request.getSession().setAttribute("entityName","");
             filterChain.doFilter(servletRequest, servletResponse);
         }
     }
